@@ -6845,6 +6845,11 @@ Background Image
   background-position: center center;
 }
 
+
+.bg_image--bg {
+  background-image: url(../images/bg/bg.jpg);
+}
+
 .bg_image--1 {
   background-image: url(../images/bg/bg-image-1.jpg);
 }

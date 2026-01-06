@@ -29,7 +29,7 @@
         <header class="rn-header-area d-flex align-items-start flex-column left-header-style">
             <div class="logo-area">
                 <a href="index.html">
-                    <img src="assets/images/logo/logo-07.png" alt="personal-logo">
+                    <img src="assets/images/logo/logo.jpeg" alt="personal-logo">
                 </a>
             </div>
             <nav id="sideNavs" class="mainmenu-nav navbar-example2 onepagenav">
@@ -100,7 +100,7 @@
             <div class="col-6">
                 <div class="logo">
                     <a href="index.html">
-                        <img src="assets/images/logo/logo.png" alt="Logo">
+                        <img src="assets/images/logo/logo.jpeg" alt="Logo">
                     </a>
                 </div>
             </div>
@@ -121,7 +121,7 @@
             <div class="menu-top">
                 <div class="menu-header">
                     <a class="logo" href="index.html">
-                        <img src="assets/images/logo/logos-circle.png" alt="Personal Portfolio">
+                        <img src="assets/images/logo/logo.jpeg" alt="Personal Portfolio">
                     </a>
                     <div class="close-button">
                         <button class="close-menu-activation close"><i data-feather="x"></i></button>
@@ -188,7 +188,7 @@
 
         <!-- start slider area -->
         <section id="home"
-            class="slider-style-6 web-developer height--100 rn-section-gap align-items-center with-particles bg_image--11 bg_image"
+            class="slider-style-6 web-developer height--100 rn-section-gap align-items-center with-particles bg_image--bg bg_image"
             data-black-overlay="5">
             <div id="particles-js"></div>
             <div class="wrapper">
@@ -1711,7 +1711,7 @@
                                                 <span>Full Project</span>
                                             </div>
                                             <div class="header-right">
-                                                <span>Custom Quote</span>
+                                                <span>Let's Talk!</span>
                                             </div>
                                         </div>
                                         <div class="pricing-body">
@@ -2202,7 +2202,7 @@
                         <div class="footer-area text-center">
                             <div class="logo">
                                 <a href="index.html">
-                                    <img src="assets/images/logo/logo-vertical-dark.png" alt="logo">
+                                    <img src="assets/images/logo/logo.jpeg" alt="logo">
                                 </a>
                             </div>
                             <p class="description mt--30">© 2024 Stephen Camilo. Senior PHP Developer | Drupal |
