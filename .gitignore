@@ -1,11 +1,9 @@
 # Laravel default
-vendor/
+/vendor/
 /node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-/public/hot
-/public/storage
 /storage/*.key
 /storage/framework/cache/data/
 /storage/framework/sessions/
@@ -46,7 +44,6 @@ Thumbs.db
 
 # Build directories
 /build/
-/public/build/
 
 # Composer
 composer.phar
