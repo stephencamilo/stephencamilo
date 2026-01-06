@@ -1,8 +1,5 @@
-stephen camilo
-
 # Stephen Camilo
 **Senior PHP Developer | Drupal | WordPress | Full Stack Engineer**  
-Curtitiba, Brazil — Remote / International  
 📧 Email: stephen.camilo@live.com  
 🔗 LinkedIn: linkedin.com/in/stephencamilo  
 
