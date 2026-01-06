@@ -98,7 +98,7 @@
     <div class="header-style-2 d-block d-xl-none">
         <div class="row align-items-center">
             <div class="col-6">
-                <div class="logo">
+                <div class="logo d-md-none">
                     <a href="index.html">
                         <img src="assets/images/logo/logo.jpeg" alt="Logo">
                     </a>
@@ -197,7 +197,7 @@
                         <div class="banner-inner text-center">
                             <h1 class="fs--100">STEPHEN CAMILO</h1>
                             <span class="cd-headline clip is-full-width">
-                                <span>I am a</span>
+                                <span>I am a&nbsp;</span>
                                 <span class="cd-words-wrapper">
                                     <b class="is-visible">Senior PHP Developer.</b>
                                     <b class="is-hidden">Drupal Expert.</b>
