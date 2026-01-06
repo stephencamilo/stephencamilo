@@ -11,120 +11,36 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    # Step 1: Setup PHP
     - uses: shivammathur/setup-php@v2
       with:
         php-version: '8.3'
         extensions: mbstring, xml, ctype, iconv, intl, pdo, sqlite, curl, tokenizer
-        coverage: none
     
-    # Step 2: Checkout code
     - uses: actions/checkout@v4
-    
-    # DEBUG: Show current directory and structure
-    - name: Debug - Show current location and files
-      run: |
-        echo "=== CURRENT DIRECTORY ==="
-        pwd
-        echo -e "\n=== WHO AM I ==="
-        whoami
-        echo -e "\n=== FULL DIRECTORY STRUCTURE ==="
-        find . -type f -name "*.php" -o -name "*.json" -o -name "*.yml" -o -name "*.yaml" -o -name ".env*" | head -50
-        echo -e "\n=== TOP LEVEL FILES ==="
-        ls -la
-        echo -e "\n=== COMPOSER.JSON EXISTS? ==="
-        if [ -f "composer.json" ]; then
-          echo "✓ composer.json found"
-          cat composer.json | head -20
-        else
-          echo "✗ composer.json NOT found!"
-        fi
-        echo -e "\n=== LARAVEL SPECIFIC FILES ==="
-        ls -la app/ bootstrap/ config/ database/ routes/ 2>/dev/null || echo "Some Laravel folders not found"
-    
-    # Step 3: Copy .env with debug
-    - name: Debug - Check .env files before copying
-      run: |
-        echo "=== .env FILES BEFORE ==="
-        ls -la .env* 2>/dev/null || echo "No .env files found"
     
     - name: Copy .env
       run: php -r "file_exists('.env') || copy('.env.example', '.env');"
     
-    - name: Debug - Check .env files after copying
-      run: |
-        echo "=== .env FILES AFTER ==="
-        ls -la .env* 2>/dev/null || echo "No .env files found"
-    
-    # Step 4: Install Dependencies with more info
-    - name: Debug - Composer info before install
-      run: |
-        echo "=== COMPOSER VERSION ==="
-        composer --version
-        echo -e "\n=== PHP VERSION ==="
-        php -v
-        echo -e "\n=== MEMORY LIMIT ==="
-        php -i | grep memory_limit
-    
     - name: Install Dependencies
-      run: |
-        echo "Starting composer install..."
-        composer install -v --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist 2>&1 | tail -100
-        echo "Composer exit code: $?"
+      run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
     
-    # Step 5: Generate key
     - name: Generate key
-      run: |
-        echo "Generating Laravel key..."
-        php artisan key:generate --show
-    
-    # Step 6: Directory Permissions
-    - name: Debug - Check permissions before
-      run: |
-        echo "=== STORAGE PERMISSIONS BEFORE ==="
-        ls -la storage/ 2>/dev/null || echo "No storage directory"
-        echo -e "\n=== BOOTSTRAP/CACHE PERMISSIONS BEFORE ==="
-        ls -la bootstrap/cache/ 2>/dev/null || echo "No bootstrap/cache directory"
+      run: php artisan key:generate
     
     - name: Directory Permissions
       run: chmod -R 777 storage bootstrap/cache
     
-    - name: Debug - Check permissions after
-      run: |
-        echo "=== STORAGE PERMISSIONS AFTER ==="
-        ls -la storage/
-        echo -e "\n=== BOOTSTRAP/CACHE PERMISSIONS AFTER ==="
-        ls -la bootstrap/cache/
-    
-    # Step 7: Create Database
     - name: Create Database
       run: |
-        echo "Creating SQLite database..."
         mkdir -p database
         touch database/database.sqlite
-        echo "=== DATABASE DIRECTORY ==="
-        ls -la database/
-        echo -e "\n=== SQLITE FILE INFO ==="
-        file database/database.sqlite
     
-    # Step 8: Final debug before tests
-    - name: Debug - Final environment check
-      run: |
-        echo "=== FINAL DIRECTORY TREE (simplified) ==="
-        find . -maxdepth 3 -type f -name "*.php" | head -30 || true
-        echo -e "\n=== ARTISAN COMMANDS AVAILABLE ==="
-        php artisan list --raw | head -20 || echo "Artisan not working"
-        echo -e "\n=== ENVIRONMENT VARIABLES ==="
-        php artisan tinker --execute="echo 'APP_ENV: ' . env('APP_ENV') . '\n';" 2>/dev/null || echo "Cannot run tinker"
+    - name: Run Migrations
+      run: php artisan migrate --force
     
-    # Step 9: Execute tests
     - name: Execute tests
       env:
         DB_CONNECTION: sqlite
         DB_DATABASE: database/database.sqlite
         APP_ENV: testing
-      run: |
-        echo "=== RUNNING TESTS ==="
-        echo "Current directory: $(pwd)"
-        echo "Database file: $(ls -la database/database.sqlite)"
-        php artisan test --verbose
+      run: php artisan test
