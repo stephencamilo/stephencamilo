@@ -1,60 +1,82 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+stephen camilo
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# Stephen Camilo
+**Senior PHP Developer | Drupal | WordPress | Full Stack Engineer**  
+Curtitiba, Brazil — Remote / International  
+📧 Email: stephen.camilo@live.com  
+🔗 LinkedIn: linkedin.com/in/stephencamilo  
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Professional Summary
+Senior PHP developer with over 10 years of hands-on experience delivering high-complexity digital platforms using Drupal, WordPress, and Laravel in international environments.  
+Bachelor’s degree in **Marketing**, postgraduate specialization in **Data Science**, and currently pursuing a degree in **Systems Analysis and Development**, combining strong engineering execution with product, data, and business-oriented thinking.  
+Expert in API integrations, marketplaces, transactional platforms, and mission-critical systems, with a strong focus on performance, security, and scalable architecture.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Professional Experience
 
-## Learning Laravel
+### Senior Drupal Developer — Jobsty
+**Apr 2022 – Oct 2025 | Remote (International)**  
+- Development and maintenance of enterprise Drupal applications (versions 8–11) in a healthcare environment.  
+- Design and implementation of custom modules and themes following security and performance best practices.  
+- REST API integrations enabling interoperability between hospital systems.  
+- Contribution to architectural decisions and continuous improvement initiatives.  
+- Collaboration with distributed teams across the US, Latin America, and Africa.  
+- Technical communication in English (Zoom, Jira, Slack).  
+**Technologies:** PHP, Drupal, MySQL, Git, Docker, DDEV, Agile.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+### Full Stack Engineer / Web Developer — Freelance & Own Products
+**Dec 2011 – Present**  
+- Consulting and full stack development of digital platforms and proprietary products.  
+- Back-end development with PHP, Laravel, and Codelgniter; front-end with WordPress, WooCommerce, and React.  
+- Integration with payment gateways (Pix, Pagar.Me) and REST APIs.  
+- Development of hybrid applications (Electron, Cordova, Capacitor).  
+- Product ownership and technical leadership for:  
+  - **taxando.com.br** — B2B2C marketplace for restaurants and freelancers.  
+  - **motoextra.com.br** — Classifieds and marketplace platform.  
+- Application of software architecture, technical UX, data-driven decisions, and scalability principles.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### Software Engineer — CI&T
+**Oct 2020 – Apr 2022 | Remote**  
+- Member of the Drupal Enterprise core team.  
+- Development of reusable components and code standardization.  
+- Code reviews and continuous improvement practices.  
+- Maintenance and modernization of legacy systems.  
+**Stack:** PHP, Drupal, GitLab CI/CD, MySQL, Agile.
 
-## Laravel Sponsors
+### Full Stack Engineer — Plansul
+**Feb 2020 – Oct 2020 | Curitiba, Brazil**  
+- Development of Laravel-based applications.  
+- Focus on performance optimization, security, and data integration.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### Full Stack Developer — CCZ
+**Apr 2019 – Jan 2020 | Curitiba, Brazil**  
+- Development of e-commerce and marketplace solutions using WooCommerce and React.  
+- API and payment system integrations.  
+- SEO and performance optimization.
 
-### Premium Partners
+---
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+## Education
+- **Systems Analysis and Development** — In progress  
+- **Postgraduate Degree in Data Science** — Anhanguera Educacional  
+- **Bachelor’s Degree in Marketing** — Anhanguera Educacional
 
-## Contributing
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Technical Skills
+- **Languages**: PHP, JavaScript, SQL, HTML, CSS  
+- **Frameworks & CMS**: Drupal 8–11, WordPress, Laravel, Codelgniter, React  
+- **DevOps**: Git, Docker, DDEV, CI/CD  
+- **Databases**: MySQL, PostgreSQL  
+- **Data**: Basic ETL, metrics-driven analysis  
+- **Payments**: Pix, Pagar.Me, WooCommerce  
+- **APIs**: REST  
+- **Methodologies**: Agile, Scrum, Kanban, GitHub
 
-## Code of Conduct
+---
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# stephencamilo
+## Career Goal
+Progress into a **Digital Product Architect** role, bridging software engineering, data, and business strategy to design scalable and sustainable platforms.
