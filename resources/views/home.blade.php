@@ -1997,11 +1997,13 @@
         </div>
         <!-- End Contuct section -->
         <!-- Start Right Demo  -->
+        <!--
         <div class="rn-right-demo">
             <button class="demo-button">
                 <span class="text">Projects</span>
             </button>
         </div>
+        -->
         <!-- End Right Demo  -->
 
         <!-- Start Modal Area  -->
