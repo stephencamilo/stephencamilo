@@ -195,7 +195,9 @@
                 <div class="container">
                     <div class="row">
                         <div class="banner-inner text-center">
-                            <h1 class="fs--100">STEPHEN CAMILO</h1>
+                            <h1 class="fs--100">
+                                STEPHEN CAMILO
+                            </h1>
                             <span class="cd-headline clip is-full-width">
                                 <span>I am a</span>
                                 <span class="cd-words-wrapper">
