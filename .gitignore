@@ -26,6 +26,7 @@ Thumbs.db
 *.swp
 
 # DDEV
+.ddev/
 .ddev/.global_commands
 .ddev/.homeadditions
 .ddev/config.local.yaml
