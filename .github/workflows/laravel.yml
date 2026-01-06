@@ -1,4 +1,4 @@
-name: Laravel
+name: Laravel Tests
 
 on:
   push:
@@ -7,36 +7,45 @@ on:
     branches: [ "main" ]
 
 jobs:
-  laravel-tests:
+  test:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: shivammathur/setup-php@v2
-      with:
-        php-version: '8.3'
-        extensions: mbstring, xml, ctype, iconv, intl, pdo, sqlite, curl, tokenizer
-    
-    - uses: actions/checkout@v4
-    
-    - name: Install Dependencies
-      run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
-    
-    - name: Setup environment
-      run: |
-        cp .env.example .env
-        php artisan key:generate --force
-    
-    - name: Setup database
-      run: |
-        mkdir -p database
-        touch database/database.sqlite
-        php artisan migrate --force
-    
-    - name: Execute tests
-      env:
-        DB_CONNECTION: sqlite
-        DB_DATABASE: database/database.sqlite
-        APP_ENV: testing
-        SESSION_DRIVER: array
-        CACHE_DRIVER: array
-      run: php artisan test
+      # 1. Setup PHP
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+          extensions: mbstring, xml, ctype, curl, sqlite, tokenizer
+      
+      # 2. Get your code
+      - uses: actions/checkout@v4
+      
+      # 3. Install dependencies
+      - name: Install dependencies
+        run: composer install --no-interaction --no-scripts
+      
+      # 4. Setup environment
+      - name: Setup .env
+        run: |
+          cp .env.example .env
+          php artisan key:generate --force
+      
+      # 5. CREATE THE MISSING CACHE DIRECTORY (This fixes the error)
+      - name: Create cache directories
+        run: |
+          mkdir -p storage/framework/views
+          mkdir -p bootstrap/cache
+          chmod -R 775 storage bootstrap/cache
+      
+      # 6. Setup database
+      - name: Setup database
+        run: |
+          touch database/database.sqlite
+          php artisan migrate --force
+      
+      # 7. Run tests
+      - name: Run tests
+        env:
+          DB_CONNECTION: sqlite
+          APP_ENV: testing
+        run: php artisan test
