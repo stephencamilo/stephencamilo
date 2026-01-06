@@ -1,0 +1,80 @@
+# Laravel default
+/vendor/
+/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/public/hot
+/public/storage
+/storage/*.key
+/storage/framework/cache/data/
+/storage/framework/sessions/
+/storage/framework/views/
+.env
+.env.*.local
+.env.local
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+.sass-cache/
+.DS_Store
+Thumbs.db
+.idea/
+.phpstorm.meta.php
+._*
+*.swp
+
+# DDEV
+.ddev/.global_commands
+.ddev/.homeadditions
+.ddev/config.local.yaml
+.ddev/commands/**/*.example
+.ddev/proxy-cache
+.ddev/proxy-ssl
+.ddev/import-db
+.ddev/import-db-bak
+
+# IDE
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Build directories
+/build/
+/public/build/
+
+# Composer
+composer.phar
+composer.lock
+
+# Assets
+/public/css/
+/public/js/
+/assets/css/
+/assets/js/
+
+# Logs
+*.log
+storage/logs/*.log
+
+# Cache
+bootstrap/cache/*
+
+# Testing
+/coverage/
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Your specific file
+DO_NOT_UPLOAD_HERE
