@@ -55,8 +55,6 @@ composer.lock
 # Assets
 /public/css/
 /public/js/
-/assets/css/
-/assets/js/
 
 # Logs
 *.log
