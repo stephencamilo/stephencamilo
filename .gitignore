@@ -52,10 +52,6 @@ Thumbs.db
 composer.phar
 composer.lock
 
-# Assets
-/public/css/
-/public/js/
-
 # Logs
 *.log
 storage/logs/*.log
