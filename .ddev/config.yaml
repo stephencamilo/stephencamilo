@@ -1,0 +1,8 @@
+name: stephencamilo
+type: laravel
+docroot: 'public_html'
+php_version: "8.4"
+webserver_type: apache-fpm
+xdebug_enabled: true
+additional_hostnames: []
+additional_fqdns: []
