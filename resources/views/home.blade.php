@@ -297,7 +297,7 @@
                 </div>
             </div>
         </section>
-        <div class="rn-service-area rn-section-gap " id="features">
+        <div class="rn-service-area rn-section-gap m-5" id="features">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -308,7 +308,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row row--25 mt_md--10 mt_sm--10">
+                <div class="row row--25 mt_md--10 mt_sm--10 justify-content-center">
 
                     <!-- Start Single Service -->
                     <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true"
@@ -403,7 +403,7 @@
 
         <!-- Start Portfolio Area -->
         <!-- Start Portfolio Area 
-        <div class="rn-portfolio-area rn-section-gap section-separator" id="portfolio">
+        <div class="rn-portfolio-area rn-section-gap section-separator m-5" id="portfolio">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -526,7 +526,7 @@
         <!-- End portfolio Area -->
 
         <!-- Start Resume Area -->
-        <div class="rn-resume-area rn-section-gap section-separator" id="resume">
+        <div class="rn-resume-area rn-section-gap section-separator m-5" id="resume">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -1141,7 +1141,7 @@
         </div>
         <!-- End Resume Area -->
         <!-- Start Client Area -->
-<div class="rn-client-area rn-section-gap section-separator" id="clients">
+<div class="rn-client-area rn-section-gap section-separator m-5" id="clients">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -1697,7 +1697,7 @@
 </div>
         <!-- End client section -->
         <!-- Pricing Area -->
-        <div class="rn-pricing-area rn-section-gap section-separator" id="pricing">
+        <div class="rn-pricing-area rn-section-gap section-separator m-5" id="pricing">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-xl-5 mb_md--40 mb_sm--40 small-margin-pricing">
@@ -2039,7 +2039,7 @@
         </div>
         <!-- pricing area -->
         {{--
-        <div class="rn-blog-area rn-section-gap section-separator" id="blog">
+        <div class="rn-blog-area rn-section-gap section-separator m-5" id="blog">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -2157,7 +2157,7 @@
         <!-- ENd Mews Area -->
         --}}
         <!-- Start Contact section -->
-        <div class="rn-contact-area rn-section-gap section-separator" id="contacts">
+        <div class="rn-contact-area rn-section-gap section-separator m-5" id="contacts">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -2427,7 +2427,7 @@
         </div>
         <!-- End Modal Area  -->
         <!-- Start Footer Area -->
-        <div class="rn-footer-area rn-section-gap section-separator">
+        <div class="rn-footer-area rn-section-gap section-separator m-5">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
