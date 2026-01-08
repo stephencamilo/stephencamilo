@@ -44,7 +44,7 @@
                         <a class="nav-link smoth-animation-two" href="#features"> <i data-feather="briefcase">
                             </i>Services</a>
                     </li>
-<!--
+                    <!--
                     <li class="nav-item">
                         <a class="nav-link smoth-animation-two" href="#portfolio">
                             <i data-feather="layers">
@@ -268,35 +268,73 @@
     <main class="page-wrapper-two">
 
         <!-- start slider area -->
-        <section id="home"
-            class="slider-style-6 web-developer height--100 rn-section-gap align-items-center with-particles bg_image--bg bg_image"
-            data-black-overlay="5">
-            <div id="particles-js">
-
-            </div>
-            <div class="wrapper">
-                <div class="container">
-                    <div class="row">
-                        <div class="banner-inner text-center">
-                            <h1 class="fs--100">STEPHEN CAMILO</h1>
-                            <span class="cd-headline clip is-full-width">
-                                <span>I am a&nbsp;</span>
-                                <span class="cd-words-wrapper">
-                                    <b class="is-visible">Senior PHP Developer.</b>
-                                    <b class="is-hidden">Drupal Expert.</b>
-                                    <b class="is-hidden">Full Stack Engineer.</b>
-                                </span>
-                            </span>
-                            <div class="button-area">
-                                <a class="rn-btn shadow-none" href="#contacts">
-                                    <span>CONTACT ME</span>
-                                </a>
-                            </div>
-                        </div>
+<section id="home"
+    class="slider-style-6 web-developer height--100 rn-section-gap align-items-center with-particles bg_image--bg bg_image"
+    data-black-overlay="5">
+    <div id="particles-js"></div>
+    <div class="wrapper m-5">
+        <div class="container">
+            <div class="row">
+                <div class="banner-inner text-center">
+                    <h1 class="fs--100 lh-1">STEPHEN CAMILO</h1>
+                    
+                    <!-- Text Rotator -->
+                    <div class="cd-headline letters is-full-width" 
+                         x-data="textRotator()"
+                         x-init="init()"
+                         style="font-size: 2rem; min-height: 3rem; display: inline-block;">
+                        <span>I am a&nbsp;</span>
+                        <span class="cd-words-wrapper">
+                            <b class="is-visible">
+                                <span x-text="displayText"></span>
+                                <span class="cursor" 
+                                      :class="{ 
+                                          'typing': isTyping, 
+                                          'deleting': isDeleting 
+                                      }">|</span>
+                            </b>
+                        </span>
+                    </div>
+                    
+                    <!-- CSS for cursor animation -->
+                    <style>
+                        .cursor {
+                            display: inline-block;
+                            animation: blink 1s infinite;
+                            margin-left: 2px;
+                        }
+                        
+                        .cursor.typing {
+                            color: #4CAF50;
+                            animation: blinkFast 0.7s infinite;
+                        }
+                        
+                        .cursor.deleting {
+                            color: #FF5252;
+                            animation: blinkFast 0.4s infinite;
+                        }
+                        
+                        @keyframes blink {
+                            0%, 100% { opacity: 1; }
+                            50% { opacity: 0; }
+                        }
+                        
+                        @keyframes blinkFast {
+                            0%, 100% { opacity: 1; }
+                            50% { opacity: 0.3; }
+                        }
+                    </style>
+                    
+                    <div class="button-area mt-4">
+                        <a class="rn-btn shadow-none" href="#contacts">
+                            <span>CONTACT ME</span>
+                        </a>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </div>
+</section>
         <div class="rn-service-area rn-section-gap m-5" id="features">
             <div class="container">
                 <div class="row">
@@ -402,7 +440,7 @@
         <!-- End Service Area  -->
 
         <!-- Start Portfolio Area -->
-        <!-- Start Portfolio Area 
+        <!-- Start Portfolio Area
         <div class="rn-portfolio-area rn-section-gap section-separator m-5" id="portfolio">
             <div class="container">
                 <div class="row">
@@ -1141,560 +1179,560 @@
         </div>
         <!-- End Resume Area -->
         <!-- Start Client Area -->
-<div class="rn-client-area rn-section-gap section-separator m-5" id="clients">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="section-title">
-                    <span class="subtitle">Technical Expertise</span>
-                    <h2 class="title">Core Skills</h2>
-                </div>
-            </div>
-        </div>
-
-        <div class="row row--25 mt--50 mt_md--40 mt_sm--40">
-            <div class="col-lg-4">
-                <div class="d-flex flex-wrap align-content-start h-100">
-                    <div class="position-sticky clients-wrapper sticky-top rbt-sticky-top-adjust">
-                        <ul class="nav tab-navigation-button flex-column nav-pills me-3" id="v-pills-tab"
-                            role="tablist">
-
-                            <li class="nav-item">
-                                <a class="nav-link active" id="v-pills-profile-tab" data-bs-toggle="tab"
-                                    href="#v-pills-Design" role="tab" aria-controls="design"
-                                    aria-selected="true">Frameworks & CMS</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" id="v-pills-home-tab" data-bs-toggle="tab"
-                                    href="#v-pills-Javascript" role="tab" aria-controls="javascript"
-                                    aria-selected="true">Programing Languages</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" id="v-pills-wordpress-tab" data-bs-toggle="tab"
-                                    href="#v-pills-Wordpress" role="tab" aria-controls="wordpress"
-                                    aria-selected="true">DevOps & Tools</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" id="v-pills-settings-tabs" data-bs-toggle="tab"
-                                    href="#v-pills-settings" role="tab" aria-controls="react"
-                                    aria-selected="true">Databases</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" id="v-pills-laravel-tabs" data-bs-toggle="tab"
-                                    href="#v-pills-laravel" role="tab" aria-controls="laravel"
-                                    aria-selected="true">APIs & Integrations</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" id="v-pills-python-tabs" data-bs-toggle="tab"
-                                    href="#v-pills-python" role="tab" aria-controls="python"
-                                    aria-selected="true">Methodologies</a>
-                            </li>
-
-
-                        </ul>
+        <div class="rn-client-area rn-section-gap section-separator m-5" id="clients">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title">
+                            <span class="subtitle">Technical Expertise</span>
+                            <h2 class="title">Core Skills</h2>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-lg-8">
-                <div class="tab-area">
-                    <div class="d-flex align-items-start">
-                        <div class="tab-content" id="v-pills-tabContent">
+                <div class="row row--25 mt--50 mt_md--40 mt_sm--40">
+                    <div class="col-lg-4">
+                        <div class="d-flex flex-wrap align-content-start h-100">
+                            <div class="position-sticky clients-wrapper sticky-top rbt-sticky-top-adjust">
+                                <ul class="nav tab-navigation-button flex-column nav-pills me-3" id="v-pills-tab"
+                                    role="tablist">
 
-                            <div class="tab-pane fade" id="v-pills-Javascript" role="tabpanel"
-                                aria-labelledby="v-pills-home-tab">
-                                <div class="client-card">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" id="v-pills-profile-tab" data-bs-toggle="tab"
+                                            href="#v-pills-Design" role="tab" aria-controls="design"
+                                            aria-selected="true">Frameworks & CMS</a>
+                                    </li>
 
-                                    <!-- Start Single Brand  -->
-                                    <div class="main-content">
-                                        <div class="inner text-center">
-                                            <div class="thumbnail">
-                                                <a href="#">
-                                                    <i class="fab fa-php fa-3x"></i>
-                                                </a>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="v-pills-home-tab" data-bs-toggle="tab"
+                                            href="#v-pills-Javascript" role="tab" aria-controls="javascript"
+                                            aria-selected="true">Programing Languages</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="v-pills-wordpress-tab" data-bs-toggle="tab"
+                                            href="#v-pills-Wordpress" role="tab" aria-controls="wordpress"
+                                            aria-selected="true">DevOps & Tools</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="v-pills-settings-tabs" data-bs-toggle="tab"
+                                            href="#v-pills-settings" role="tab" aria-controls="react"
+                                            aria-selected="true">Databases</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="v-pills-laravel-tabs" data-bs-toggle="tab"
+                                            href="#v-pills-laravel" role="tab" aria-controls="laravel"
+                                            aria-selected="true">APIs & Integrations</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="v-pills-python-tabs" data-bs-toggle="tab"
+                                            href="#v-pills-python" role="tab" aria-controls="python"
+                                            aria-selected="true">Methodologies</a>
+                                    </li>
+
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8">
+                        <div class="tab-area">
+                            <div class="d-flex align-items-start">
+                                <div class="tab-content" id="v-pills-tabContent">
+
+                                    <div class="tab-pane fade" id="v-pills-Javascript" role="tabpanel"
+                                        aria-labelledby="v-pills-home-tab">
+                                        <div class="client-card">
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#">
+                                                            <i class="fab fa-php fa-3x"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name">
+                                                        <span><a href="#">PHP</a></span>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div class="seperator"></div>
-                                            <div class="client-name">
-                                                <span><a href="#">PHP</a></span>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#">
+                                                            <i class="fab fa-js-square fa-3x"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name">
+                                                        <span><a href="#">JavaScript</a></span>
+                                                    </div>
+                                                </div>
                                             </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#">
+                                                            <i class="fas fa-database fa-3x"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name">
+                                                        <span><a href="#">SQL</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#">
+                                                            <i class="fab fa-html5 fa-3x"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name">
+                                                        <span><a href="#">HTML5</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#">
+                                                            <i class="fab fa-css3-alt fa-3x"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name">
+                                                        <span><a href="#">CSS3</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
                                         </div>
                                     </div>
-                                    <!-- End Single Brand  -->
 
-                                    <!-- Start Single Brand  -->
-                                    <div class="main-content">
-                                        <div class="inner text-center">
-                                            <div class="thumbnail">
-                                                <a href="#">
-                                                    <i class="fab fa-js-square fa-3x"></i>
-                                                </a>
+                                    <div class="tab-pane fade show active" id="v-pills-Design" role="tabpanel"
+                                        aria-labelledby="v-pills-profile-tab">
+                                        <div class="client-card">
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#">
+                                                            <i class="fab fa-drupal fa-3x"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name">
+                                                        <span>
+                                                            <a href="#">Drupal 8-11</a>
+                                                        </span>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div class="seperator"></div>
-                                            <div class="client-name">
-                                                <span><a href="#">JavaScript</a></span>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#">
+                                                            <i class="fab fa-wordpress fa-3x"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name">
+                                                        <span>
+                                                            <a href="#">WordPress</a>
+                                                        </span>
+                                                    </div>
+                                                </div>
                                             </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#">
+                                                            <i class="fab fa-laravel fa-3x"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name">
+                                                        <span>
+                                                            <a href="#">Laravel</a>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#">
+                                                            <i class="fas fa-code fa-3x"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name">
+                                                        <span>
+                                                            <a href="#">CodeIgniter</a>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#">
+                                                            <i class="fab fa-react fa-3x"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name">
+                                                        <span>
+                                                            <a href="#">React</a>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
                                         </div>
                                     </div>
-                                    <!-- End Single Brand  -->
 
-                                    <!-- Start Single Brand  -->
-                                    <div class="main-content">
-                                        <div class="inner text-center">
-                                            <div class="thumbnail">
-                                                <a href="#">
-                                                    <i class="fas fa-database fa-3x"></i>
-                                                </a>
+                                    <div class="tab-pane fade" id="v-pills-Wordpress" role="tabpanel"
+                                        aria-labelledby="v-pills-wordpress-tab">
+                                        <div class="client-card">
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#">
+                                                            <i class="fab fa-git-alt fa-3x"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name">
+                                                        <span>
+                                                            <a href="#">Git</a>
+                                                        </span>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div class="seperator"></div>
-                                            <div class="client-name">
-                                                <span><a href="#">SQL</a></span>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#">
+                                                            <i class="fab fa-docker fa-3x"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name">
+                                                        <span>
+                                                            <a href="#">Docker</a>
+                                                        </span>
+                                                    </div>
+                                                </div>
                                             </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#">
+                                                            <i class="fas fa-server fa-3x"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name">
+                                                        <span>
+                                                            <a href="#">DDEV</a>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#">
+                                                            <i class="fas fa-sync-alt fa-3x"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name">
+                                                        <span>
+                                                            <a href="#">CI/CD</a>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
                                         </div>
                                     </div>
-                                    <!-- End Single Brand  -->
 
-                                    <!-- Start Single Brand  -->
-                                    <div class="main-content">
-                                        <div class="inner text-center">
-                                            <div class="thumbnail">
-                                                <a href="#">
-                                                    <i class="fab fa-html5 fa-3x"></i>
-                                                </a>
+                                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                                        aria-labelledby="v-pills-settings-tabs">
+                                        <div class="client-card">
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#">
+                                                            <i class="fas fa-database fa-3x"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name">
+                                                        <span>
+                                                            <a href="#">MySQL</a>
+                                                        </span>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div class="seperator"></div>
-                                            <div class="client-name">
-                                                <span><a href="#">HTML5</a></span>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#">
+                                                            <i class="fas fa-database fa-3x"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name">
+                                                        <span>
+                                                            <a href="#">PostgreSQL</a>
+                                                        </span>
+                                                    </div>
+                                                </div>
                                             </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#">
+                                                            <i class="fas fa-sitemap fa-3x"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name">
+                                                        <span>
+                                                            <a href="#">Database Design</a>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
                                         </div>
                                     </div>
-                                    <!-- End Single Brand  -->
 
-                                    <!-- Start Single Brand  -->
-                                    <div class="main-content">
-                                        <div class="inner text-center">
-                                            <div class="thumbnail">
-                                                <a href="#">
-                                                    <i class="fab fa-css3-alt fa-3x"></i>
-                                                </a>
+                                    <div class="tab-pane fade" id="v-pills-laravel" role="tabpanel"
+                                        aria-labelledby="v-pills-laravel-tabs">
+                                        <div class="client-card">
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#">
+                                                            <i class="fas fa-exchange-alt fa-3x"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name">
+                                                        <span>
+                                                            <a href="#">REST API</a>
+                                                        </span>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div class="seperator"></div>
-                                            <div class="client-name">
-                                                <span><a href="#">CSS3</a></span>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#">
+                                                            <i class="fas fa-credit-card fa-3x"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name">
+                                                        <span>
+                                                            <a href="#">Payment Systems</a>
+                                                        </span>
+                                                    </div>
+                                                </div>
                                             </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#">
+                                                            <i class="fab fa-wordpress fa-3x"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name">
+                                                        <span>
+                                                            <a href="#">WooCommerce</a>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#">
+                                                            <i class="fas fa-plug fa-3x"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name">
+                                                        <span>
+                                                            <a href="#">Third-party APIs</a>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
                                         </div>
                                     </div>
-                                    <!-- End Single Brand  -->
+
+                                    <div class="tab-pane fade" id="v-pills-python" role="tabpanel"
+                                        aria-labelledby="v-pills-python-tabs">
+                                        <div class="client-card">
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#">
+                                                            <i class="fas fa-bolt fa-3x"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name">
+                                                        <span>
+                                                            <a href="#">Agile</a>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#">
+                                                            <i class="fas fa-users fa-3x"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name">
+                                                        <span>
+                                                            <a href="#">Scrum</a>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#">
+                                                            <i class="fas fa-columns fa-3x"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name">
+                                                        <span>
+                                                            <a href="#">Kanban</a>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#">
+                                                            <i class="fab fa-github fa-3x"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name">
+                                                        <span>
+                                                            <a href="#">GitHub Flow</a>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                        </div>
+                                    </div>
 
                                 </div>
                             </div>
-
-                            <div class="tab-pane fade show active" id="v-pills-Design" role="tabpanel"
-                                aria-labelledby="v-pills-profile-tab">
-                                <div class="client-card">
-
-                                    <!-- Start Single Brand  -->
-                                    <div class="main-content">
-                                        <div class="inner text-center">
-                                            <div class="thumbnail">
-                                                <a href="#">
-                                                    <i class="fab fa-drupal fa-3x"></i>
-                                                </a>
-                                            </div>
-                                            <div class="seperator"></div>
-                                            <div class="client-name">
-                                                <span>
-                                                    <a href="#">Drupal 8-11</a>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Single Brand  -->
-
-                                    <!-- Start Single Brand  -->
-                                    <div class="main-content">
-                                        <div class="inner text-center">
-                                            <div class="thumbnail">
-                                                <a href="#">
-                                                    <i class="fab fa-wordpress fa-3x"></i>
-                                                </a>
-                                            </div>
-                                            <div class="seperator"></div>
-                                            <div class="client-name">
-                                                <span>
-                                                    <a href="#">WordPress</a>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Single Brand  -->
-
-                                    <!-- Start Single Brand  -->
-                                    <div class="main-content">
-                                        <div class="inner text-center">
-                                            <div class="thumbnail">
-                                                <a href="#">
-                                                    <i class="fab fa-laravel fa-3x"></i>
-                                                </a>
-                                            </div>
-                                            <div class="seperator"></div>
-                                            <div class="client-name">
-                                                <span>
-                                                    <a href="#">Laravel</a>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Single Brand  -->
-
-                                    <!-- Start Single Brand  -->
-                                    <div class="main-content">
-                                        <div class="inner text-center">
-                                            <div class="thumbnail">
-                                                <a href="#">
-                                                    <i class="fas fa-code fa-3x"></i>
-                                                </a>
-                                            </div>
-                                            <div class="seperator"></div>
-                                            <div class="client-name">
-                                                <span>
-                                                    <a href="#">CodeIgniter</a>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Single Brand  -->
-
-                                    <!-- Start Single Brand  -->
-                                    <div class="main-content">
-                                        <div class="inner text-center">
-                                            <div class="thumbnail">
-                                                <a href="#">
-                                                    <i class="fab fa-react fa-3x"></i>
-                                                </a>
-                                            </div>
-                                            <div class="seperator"></div>
-                                            <div class="client-name">
-                                                <span>
-                                                    <a href="#">React</a>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Single Brand  -->
-
-                                </div>
-                            </div>
-
-                            <div class="tab-pane fade" id="v-pills-Wordpress" role="tabpanel"
-                                aria-labelledby="v-pills-wordpress-tab">
-                                <div class="client-card">
-
-                                    <!-- Start Single Brand  -->
-                                    <div class="main-content">
-                                        <div class="inner text-center">
-                                            <div class="thumbnail">
-                                                <a href="#">
-                                                    <i class="fab fa-git-alt fa-3x"></i>
-                                                </a>
-                                            </div>
-                                            <div class="seperator"></div>
-                                            <div class="client-name">
-                                                <span>
-                                                    <a href="#">Git</a>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Single Brand  -->
-
-                                    <!-- Start Single Brand  -->
-                                    <div class="main-content">
-                                        <div class="inner text-center">
-                                            <div class="thumbnail">
-                                                <a href="#">
-                                                    <i class="fab fa-docker fa-3x"></i>
-                                                </a>
-                                            </div>
-                                            <div class="seperator"></div>
-                                            <div class="client-name">
-                                                <span>
-                                                    <a href="#">Docker</a>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Single Brand  -->
-
-                                    <!-- Start Single Brand  -->
-                                    <div class="main-content">
-                                        <div class="inner text-center">
-                                            <div class="thumbnail">
-                                                <a href="#">
-                                                    <i class="fas fa-server fa-3x"></i>
-                                                </a>
-                                            </div>
-                                            <div class="seperator"></div>
-                                            <div class="client-name">
-                                                <span>
-                                                    <a href="#">DDEV</a>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Single Brand  -->
-
-                                    <!-- Start Single Brand  -->
-                                    <div class="main-content">
-                                        <div class="inner text-center">
-                                            <div class="thumbnail">
-                                                <a href="#">
-                                                    <i class="fas fa-sync-alt fa-3x"></i>
-                                                </a>
-                                            </div>
-                                            <div class="seperator"></div>
-                                            <div class="client-name">
-                                                <span>
-                                                    <a href="#">CI/CD</a>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Single Brand  -->
-
-                                </div>
-                            </div>
-
-                            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
-                                aria-labelledby="v-pills-settings-tabs">
-                                <div class="client-card">
-
-                                    <!-- Start Single Brand  -->
-                                    <div class="main-content">
-                                        <div class="inner text-center">
-                                            <div class="thumbnail">
-                                                <a href="#">
-                                                    <i class="fas fa-database fa-3x"></i>
-                                                </a>
-                                            </div>
-                                            <div class="seperator"></div>
-                                            <div class="client-name">
-                                                <span>
-                                                    <a href="#">MySQL</a>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Single Brand  -->
-
-                                    <!-- Start Single Brand  -->
-                                    <div class="main-content">
-                                        <div class="inner text-center">
-                                            <div class="thumbnail">
-                                                <a href="#">
-                                                    <i class="fas fa-database fa-3x"></i>
-                                                </a>
-                                            </div>
-                                            <div class="seperator"></div>
-                                            <div class="client-name">
-                                                <span>
-                                                    <a href="#">PostgreSQL</a>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Single Brand  -->
-
-                                    <!-- Start Single Brand  -->
-                                    <div class="main-content">
-                                        <div class="inner text-center">
-                                            <div class="thumbnail">
-                                                <a href="#">
-                                                    <i class="fas fa-sitemap fa-3x"></i>
-                                                </a>
-                                            </div>
-                                            <div class="seperator"></div>
-                                            <div class="client-name">
-                                                <span>
-                                                    <a href="#">Database Design</a>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Single Brand  -->
-
-                                </div>
-                            </div>
-
-                            <div class="tab-pane fade" id="v-pills-laravel" role="tabpanel"
-                                aria-labelledby="v-pills-laravel-tabs">
-                                <div class="client-card">
-
-                                    <!-- Start Single Brand  -->
-                                    <div class="main-content">
-                                        <div class="inner text-center">
-                                            <div class="thumbnail">
-                                                <a href="#">
-                                                    <i class="fas fa-exchange-alt fa-3x"></i>
-                                                </a>
-                                            </div>
-                                            <div class="seperator"></div>
-                                            <div class="client-name">
-                                                <span>
-                                                    <a href="#">REST API</a>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Single Brand  -->
-
-                                    <!-- Start Single Brand  -->
-                                    <div class="main-content">
-                                        <div class="inner text-center">
-                                            <div class="thumbnail">
-                                                <a href="#">
-                                                    <i class="fas fa-credit-card fa-3x"></i>
-                                                </a>
-                                            </div>
-                                            <div class="seperator"></div>
-                                            <div class="client-name">
-                                                <span>
-                                                    <a href="#">Payment Systems</a>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Single Brand  -->
-
-                                    <!-- Start Single Brand  -->
-                                    <div class="main-content">
-                                        <div class="inner text-center">
-                                            <div class="thumbnail">
-                                                <a href="#">
-                                                    <i class="fab fa-wordpress fa-3x"></i>
-                                                </a>
-                                            </div>
-                                            <div class="seperator"></div>
-                                            <div class="client-name">
-                                                <span>
-                                                    <a href="#">WooCommerce</a>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Single Brand  -->
-
-                                    <!-- Start Single Brand  -->
-                                    <div class="main-content">
-                                        <div class="inner text-center">
-                                            <div class="thumbnail">
-                                                <a href="#">
-                                                    <i class="fas fa-plug fa-3x"></i>
-                                                </a>
-                                            </div>
-                                            <div class="seperator"></div>
-                                            <div class="client-name">
-                                                <span>
-                                                    <a href="#">Third-party APIs</a>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Single Brand  -->
-
-                                </div>
-                            </div>
-
-                            <div class="tab-pane fade" id="v-pills-python" role="tabpanel"
-                                aria-labelledby="v-pills-python-tabs">
-                                <div class="client-card">
-
-                                    <!-- Start Single Brand  -->
-                                    <div class="main-content">
-                                        <div class="inner text-center">
-                                            <div class="thumbnail">
-                                                <a href="#">
-                                                    <i class="fas fa-bolt fa-3x"></i>
-                                                </a>
-                                            </div>
-                                            <div class="seperator"></div>
-                                            <div class="client-name">
-                                                <span>
-                                                    <a href="#">Agile</a>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Single Brand  -->
-
-                                    <!-- Start Single Brand  -->
-                                    <div class="main-content">
-                                        <div class="inner text-center">
-                                            <div class="thumbnail">
-                                                <a href="#">
-                                                    <i class="fas fa-users fa-3x"></i>
-                                                </a>
-                                            </div>
-                                            <div class="seperator"></div>
-                                            <div class="client-name">
-                                                <span>
-                                                    <a href="#">Scrum</a>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Single Brand  -->
-
-                                    <!-- Start Single Brand  -->
-                                    <div class="main-content">
-                                        <div class="inner text-center">
-                                            <div class="thumbnail">
-                                                <a href="#">
-                                                    <i class="fas fa-columns fa-3x"></i>
-                                                </a>
-                                            </div>
-                                            <div class="seperator"></div>
-                                            <div class="client-name">
-                                                <span>
-                                                    <a href="#">Kanban</a>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Single Brand  -->
-
-                                    <!-- Start Single Brand  -->
-                                    <div class="main-content">
-                                        <div class="inner text-center">
-                                            <div class="thumbnail">
-                                                <a href="#">
-                                                    <i class="fab fa-github fa-3x"></i>
-                                                </a>
-                                            </div>
-                                            <div class="seperator"></div>
-                                            <div class="client-name">
-                                                <span>
-                                                    <a href="#">GitHub Flow</a>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Single Brand  -->
-
-                                </div>
-                            </div>
-
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
         <!-- End client section -->
         <!-- Pricing Area -->
         <div class="rn-pricing-area rn-section-gap section-separator m-5" id="pricing">
@@ -2254,8 +2292,7 @@
                                             <div class="inner">
                                                 <div class="thumbnail">
                                                     <a href="#">
-                                                        <img class="w-100" src="assets/images/demo/main-demo.png"
-                                                            alt="Healthcare Drupal">
+
                                                         <span class="overlay-content">
                                                             <span class="overlay-text">Healthcare Platform <i
                                                                     class="feather-external-link">
@@ -2280,9 +2317,7 @@
                                             <div class="inner badge-2">
                                                 <div class="thumbnail">
                                                     <a href="#">
-                                                        <img class="w-100"
-                                                            src="assets/images/demo/index-technician.png"
-                                                            alt="Enterprise Drupal">
+
                                                         <span class="overlay-content">
                                                             <span class="overlay-text">Enterprise Drupal <i
                                                                     class="feather-external-link">
@@ -2307,9 +2342,7 @@
                                             <div class="inner badge-2">
                                                 <div class="thumbnail">
                                                     <a href="#">
-                                                        <img class="w-100"
-                                                            src="assets/images/demo/home-model-v2.png"
-                                                            alt="API Integration">
+
                                                         <span class="overlay-content">
                                                             <span class="overlay-text">API Integration <i
                                                                     class="feather-external-link">
@@ -2343,9 +2376,7 @@
                                             <div class="inner">
                                                 <div class="thumbnail">
                                                     <a href="#">
-                                                        <img class="w-100"
-                                                            src="assets/images/demo/main-demo-white-version.png"
-                                                            alt="Restaurant Marketplace">
+
                                                         <span class="overlay-content">
                                                             <span class="overlay-text">Marketplace <i
                                                                     class="feather-external-link">
@@ -2370,9 +2401,7 @@
                                             <div class="inner badge-2">
                                                 <div class="thumbnail">
                                                     <a href="#">
-                                                        <img class="w-100"
-                                                            src="assets/images/demo/index-technician-white-version.png"
-                                                            alt="E-commerce">
+
                                                         <span class="overlay-content">
                                                             <span class="overlay-text">E-commerce <i
                                                                     class="feather-external-link">
@@ -2397,9 +2426,7 @@
                                             <div class="inner badge-2">
                                                 <div class="thumbnail">
                                                     <a href="#">
-                                                        <img class="w-100"
-                                                            src="assets/images/demo/home-model-v2-white.png"
-                                                            alt="Payment Systems">
+
                                                         <span class="overlay-content">
                                                             <span class="overlay-text">Payment Integration <i
                                                                     class="feather-external-link">
@@ -2465,8 +2492,7 @@
                             <div class="col-lg-6">
                                 <div class="portfolio-popup-thumbnail">
                                     <div class="image">
-                                        <img class="w-100" src="assets/images/portfolio/portfolio-04.jpg"
-                                            alt="slide">
+
                                     </div>
                                 </div>
                             </div>
@@ -2518,8 +2544,7 @@
                     <!-- End of .modal-header -->
 
                     <div class="modal-body">
-                        <img src="assets/images/blog/blog-big-01.jpg" alt="news modal"
-                            class="img-fluid modal-feat-img">
+
                         <div class="news-details">
                             <span class="date">Project Case Study</span>
                             <h2 class="title">Enterprise Healthcare Platform Development.</h2>
@@ -2575,7 +2600,6 @@
         </div>
         <!-- Back to top end -->
     </main>
-
     <!-- JS ============================================ -->
     <script src="assets/js/vendor/jquery.js"></script>
     <script src="assets/js/vendor/modernizer.min.js"></script>
@@ -2589,128 +2613,99 @@
     <script src="assets/js/vendor/jquery-one-page-nav.js"></script>
     <!-- main JS -->
     <script src="assets/js/main.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
     <script>
-        particlesJS('particles-js',
-
-            {
-                "particles": {
-                    "number": {
-                        "value": 20,
-                        "density": {
-                            "enable": true,
-                            "value_area": 800
-                        }
-                    },
-                    "color": {
-                        "value": ["#ffffff", ]
-                    },
-                    "shape": {
-                        "type": "circle",
-                        "stroke": {
-                            "width": 0,
-                            "color": "#000000"
-                        },
-                        "polygon": {
-                            "nb_sides": 4
-                        },
-                        "image": {
-                            "src": "img/github.svg",
-                            "width": 100,
-                            "height": 100
-                        }
-                    },
-                    "opacity": {
-                        "value": 0.8,
-                        "random": true,
-                        "anim": {
-                            "enable": false,
-                            "speed": 1,
-                            "opacity_min": 0.1,
-                            "sync": false
-                        }
-                    },
-                    "size": {
-                        "value": 4,
-                        "random": true,
-                        "anim": {
-                            "enable": false,
-                            "speed": 40,
-                            "size_min": 0.1,
-                            "sync": false
-                        }
-                    },
-                    "line_linked": {
-                        "enable": false,
-                        "distance": 150,
-                        "color": "#ffffff",
-                        "opacity": 0.4,
-                        "width": 1
-                    },
-                    "move": {
-                        "enable": true,
-                        "speed": 6,
-                        "direction": "none",
-                        "random": false,
-                        "straight": false,
-                        "out_mode": "out",
-                        "attract": {
-                            "enable": false,
-                            "rotateX": 600,
-                            "rotateY": 1200
-                        }
-                    }
-                },
-                "interactivity": {
-                    "detect_on": "canvas",
-                    "events": {
-                        "onhover": {
-                            "enable": true,
-                            "mode": "repulse"
-                        },
-                        "onclick": {
-                            "enable": true,
-                            "mode": "push"
-                        },
-                        "resize": true
-                    },
-                    "modes": {
-                        "grab": {
-                            "distance": 400,
-                            "line_linked": {
-                                "opacity": 1
-                            }
-                        },
-                        "bubble": {
-                            "distance": 800,
-                            "size": 40,
-                            "duration": 2,
-                            "opacity": 8,
-                            "speed": 3
-                        },
-                        "repulse": {
-                            "distance": 200
-                        },
-                        "push": {
-                            "particles_nb": 4
-                        },
-                        "remove": {
-                            "particles_nb": 2
-                        }
-                    }
-                },
-                "retina_detect": true,
-                "config_demo": {
-                    "hide_card": false,
-                    "background_color": "#b61924",
-                    "background_image": "",
-                    "background_position": "50% 50%",
-                    "background_repeat": "no-repeat",
-                    "background_size": "cover"
-                }
+particlesJS('particles-js', {
+    "particles": {
+        "number": {
+            "value": 200, // Very dense
+            "density": {
+                "enable": true,
+                "value_area": 1000 // More spread out
             }
-
-        );
+        },
+        "color": {
+            "value": "#ffffff"
+        },
+        "shape": {
+            "type": "circle",
+            "stroke": {
+                "width": 0,
+                "color": "#000000"
+            }
+        },
+        "opacity": {
+            "value": 0.2, // Even lower opacity
+            "random": true,
+            "anim": {
+                "enable": true,
+                "speed": 1,
+                "opacity_min": 0.05, // Can fade to almost invisible
+                "sync": false
+            }
+        },
+        "size": {
+            "value": 2, // Smaller particles
+            "random": true,
+            "anim": {
+                "enable": false
+            }
+        },
+        "line_linked": {
+            "enable": true,
+            "distance": 100,
+            "color": "#ffffff",
+            "opacity": 0.05, // Very faint connections
+            "width": 0.3
+        },
+        "move": {
+            "enable": true,
+            "speed": 1, // Very slow movement
+            "direction": "none",
+            "random": true,
+            "straight": false,
+            "out_mode": "out",
+            "bounce": false
+        }
+    },
+    "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+            "onhover": {
+                "enable": true,
+                "mode": "grab"
+            },
+            "onclick": {
+                "enable": true,
+                "mode": "bubble"
+            },
+            "resize": true
+        },
+        "modes": {
+            "grab": {
+                "distance": 100,
+                "line_linked": {
+                    "opacity": 0.2
+                }
+            },
+            "bubble": {
+                "distance": 100,
+                "size": 5,
+                "duration": 1,
+                "opacity": 0.3,
+                "speed": 1
+            },
+            "repulse": {
+                "distance": 50
+            },
+            "push": {
+                "particles_nb": 3
+            }
+        }
+    },
+    "retina_detect": true
+});
     </script>
 </body>
 
