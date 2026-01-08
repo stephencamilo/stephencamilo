@@ -1160,18 +1160,16 @@
                             role="tablist">
 
                             <li class="nav-item">
-                                <a class="nav-link" id="v-pills-home-tab" data-bs-toggle="tab"
-                                    href="#v-pills-Javascript" role="tab" aria-controls="javascript"
-                                    aria-selected="true">Languages</a>
-                            </li>
-
-
-                            <li class="nav-item">
                                 <a class="nav-link active" id="v-pills-profile-tab" data-bs-toggle="tab"
                                     href="#v-pills-Design" role="tab" aria-controls="design"
                                     aria-selected="true">Frameworks & CMS</a>
                             </li>
 
+                            <li class="nav-item">
+                                <a class="nav-link" id="v-pills-home-tab" data-bs-toggle="tab"
+                                    href="#v-pills-Javascript" role="tab" aria-controls="javascript"
+                                    aria-selected="true">Programing Languages</a>
+                            </li>
 
                             <li class="nav-item">
                                 <a class="nav-link" id="v-pills-wordpress-tab" data-bs-toggle="tab"
