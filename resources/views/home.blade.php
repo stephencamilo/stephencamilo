@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="assets/css/vendor/slick-theme.css">
     <link rel="stylesheet" href="assets/css/vendor/aos.css">
     <link rel="stylesheet" href="assets/css/plugins/feature.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Style css -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -34,58 +35,99 @@
             </div>
             <nav id="sideNavs" class="mainmenu-nav navbar-example2 onepagenav">
                 <ul class="primary-menu nav nav-pills">
-                    <li class="nav-item current"><a class="nav-link smoth-animation-two" href="#home"><i
-                                data-feather="home"></i> Home</a></li>
-                    <li class="nav-item"><a class="nav-link smoth-animation-two" href="#features"> <i
-                                data-feather="briefcase"></i>Services</a></li>
-                    <li class="nav-item"><a class="nav-link smoth-animation-two" href="#portfolio"><i
-                                data-feather="layers"></i>Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link smoth-animation-two" href="#resume"><i
-                                data-feather="users"></i>Resume</a></li>
-                    <li class="nav-item"><a class="nav-link smoth-animation-two" href="#clients"><i
-                                data-feather="user"></i>Skills</a></li>
-                    <li class="nav-item"><a class="nav-link smoth-animation-two" href="#pricing"><i
-                                data-feather="shopping-cart"></i>Services</a></li>
-                    <li class="nav-item"><a class="nav-link smoth-animation-two" href="#blog"><i
-                                data-feather="image"></i>Projects</a></li>
-                    <li class="nav-item"><a class="nav-link smoth-animation-two" href="#contacts"><i
-                                data-feather="message-circle"></i>Contact</a></li>
+                    <li class="nav-item current">
+                        <a class="nav-link smoth-animation-two" href="#home">
+                            <i data-feather="home">
+                            </i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link smoth-animation-two" href="#features"> <i data-feather="briefcase">
+                            </i>Services</a>
+                    </li>
+<!--
+                    <li class="nav-item">
+                        <a class="nav-link smoth-animation-two" href="#portfolio">
+                            <i data-feather="layers">
+                            </i>Portfolio</a>
+                    </li>
+                -->
+                    <li class="nav-item">
+                        <a class="nav-link smoth-animation-two" href="#resume">
+                            <i data-feather="users">
+                            </i>Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link smoth-animation-two" href="#clients">
+                            <i data-feather="user">
+                            </i>Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link smoth-animation-two" href="#pricing">
+                            <i data-feather="shopping-cart">
+                            </i>Services</a>
+                    </li>
+                    {{--
+                    <li class="nav-item">
+                        <a class="nav-link smoth-animation-two" href="#blog">
+                            <i data-feather="image">
+                            </i>Projects</a>
+                        </li>
+                        --}}
+                    <li class="nav-item">
+                        <a class="nav-link smoth-animation-two" href="#contacts">
+                            <i data-feather="message-circle">
+                            </i>Contact</a>
+                    </li>
                 </ul>
             </nav>
             <div class="footer">
                 <div class="social-share-style-1">
                     <span class="title">find with me</span>
                     <ul class="social-share d-flex liststyle">
-                        <li class="github"><a href="https://github.com/stephencamilo" target="_blank"><svg
-                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="feather feather-github">
+                        <li class="github">
+                            <a href="https://github.com/stephencamilo" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
                                     <path
                                         d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
                                     </path>
-                                </svg></a>
+                                </svg>
+                            </a>
                         </li>
-                        <li class="drupal"><a href="https://www.drupal.org/u/stephencamilo" target="_blank"><svg
-                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="feather feather-box">
+                        <li class="drupal">
+                            <a href="https://www.drupal.org/u/stephencamilo" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="feather feather-box">
                                     <path
                                         d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
                                     </path>
-                                    <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
-                                    <line x1="12" y1="22.08" x2="12" y2="12"></line>
-                                </svg></a>
+                                    <polyline points="3.27 6.96 12 12.01 20.73 6.96">
+
+                                    </polyline>
+                                    <line x1="12" y1="22.08" x2="12" y2="12">
+
+                                    </line>
+                                </svg>
+                            </a>
                         </li>
-                        <li class="linkedin"><a href="https://linkedin.com/in/stephencamilo" target="_blank"><svg
-                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        <li class="linkedin">
+                            <a href="https://linkedin.com/in/stephencamilo" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
                                     <path
                                         d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
                                     </path>
-                                    <rect x="2" y="9" width="4" height="12"></rect>
-                                    <circle cx="4" cy="4" r="2"></circle>
-                                </svg></a>
+                                    <rect x="2" y="9" width="4" height="12">
+
+                                    </rect>
+                                    <circle cx="4" cy="4" r="2">
+
+                                    </circle>
+                                </svg>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -107,7 +149,9 @@
             <div class="col-6">
                 <div class="header-right text-end">
                     <div class="hamberger-menu">
-                        <i id="menuBtn" class="feather-menu humberger-menu"></i>
+                        <i id="menuBtn" class="feather-menu humberger-menu">
+
+                        </i>
                     </div>
                 </div>
             </div>
@@ -124,7 +168,10 @@
                         <img src="assets/images/logo/logo.jpeg" alt="Personal Portfolio">
                     </a>
                     <div class="close-button">
-                        <button class="close-menu-activation close"><i data-feather="x"></i></button>
+                        <button class="close-menu-activation close">
+                            <i data-feather="x">
+                            </i>
+                        </button>
                     </div>
                 </div>
                 <p class="discription">Stephen Camilo is a Senior PHP Developer specializing in Drupal, WordPress, and
@@ -132,49 +179,83 @@
             </div>
             <div class="content">
                 <ul class="primary-menu nav nav-pills onepagenav">
-                    <li class="nav-item current"><a class="nav-link smoth-animation-two" href="#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link smoth-animation-two" href="#features">Services</a></li>
-                    <li class="nav-item"><a class="nav-link smoth-animation-two" href="#portfolio">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link smoth-animation-two" href="#resume">Resume</a></li>
-                    <li class="nav-item"><a class="nav-link smoth-animation-two" href="#clients">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link smoth-animation-two" href="#pricing">Services</a></li>
-                    <li class="nav-item"><a class="nav-link smoth-animation-two" href="#blog">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link smoth-animation-two" href="#contacts">Contact</a></li>
+                    <li class="nav-item current">
+                        <a class="nav-link smoth-animation-two" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link smoth-animation-two" href="#features">Services</a>
+                    </li>
+                    {{--
+                        <li class="nav-item">
+                            <a class="nav-link smoth-animation-two" href="#portfolio">Portfolio</a>
+                        </li>
+                        --}}
+                    <li class="nav-item">
+                        <a class="nav-link smoth-animation-two" href="#resume">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link smoth-animation-two" href="#clients">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link smoth-animation-two" href="#pricing">Services</a>
+                    </li>
+                    {{--
+                    <li class="nav-item">
+                        <a class="nav-link smoth-animation-two" href="#blog">Projects</a>
+                    </li>
+                    --}}
+                    <li class="nav-item">
+                        <a class="nav-link smoth-animation-two" href="#contacts">Contact</a>
+                    </li>
                 </ul>
                 <!-- social sharea area -->
                 <div class="social-share-style-1 mt--40">
                     <span class="title">find with me</span>
                     <ul class="social-share d-flex liststyle">
-                        <li class="github"><a href="https://github.com/stephencamilo" target="_blank"><svg
-                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        <li class="github">
+                            <a href="https://github.com/stephencamilo" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
                                     <path
                                         d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
                                     </path>
-                                </svg></a>
+                                </svg>
+                            </a>
                         </li>
-                        <li class="drupal"><a href="https://www.drupal.org/u/stephencamilo" target="_blank"><svg
-                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        <li class="drupal">
+                            <a href="https://www.drupal.org/u/stephencamilo" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round" class="feather feather-box">
                                     <path
                                         d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
                                     </path>
-                                    <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
-                                    <line x1="12" y1="22.08" x2="12" y2="12"></line>
-                                </svg></a>
+                                    <polyline points="3.27 6.96 12 12.01 20.73 6.96">
+
+                                    </polyline>
+                                    <line x1="12" y1="22.08" x2="12" y2="12">
+
+                                    </line>
+                                </svg>
+                            </a>
                         </li>
-                        <li class="linkedin"><a href="https://linkedin.com/in/stephencamilo" target="_blank"><svg
-                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        <li class="linkedin">
+                            <a href="https://linkedin.com/in/stephencamilo" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
                                     <path
                                         d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
                                     </path>
-                                    <rect x="2" y="9" width="4" height="12"></rect>
-                                    <circle cx="4" cy="4" r="2"></circle>
-                                </svg></a>
+                                    <rect x="2" y="9" width="4" height="12">
+
+                                    </rect>
+                                    <circle cx="4" cy="4" r="2">
+
+                                    </circle>
+                                </svg>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -190,7 +271,9 @@
         <section id="home"
             class="slider-style-6 web-developer height--100 rn-section-gap align-items-center with-particles bg_image--bg bg_image"
             data-black-overlay="5">
-            <div id="particles-js"></div>
+            <div id="particles-js">
+
+            </div>
             <div class="wrapper">
                 <div class="container">
                     <div class="row">
@@ -205,7 +288,9 @@
                                 </span>
                             </span>
                             <div class="button-area">
-                                <a class="rn-btn shadow-none" href="#contacts"><span>CONTACT ME</span></a>
+                                <a class="rn-btn shadow-none" href="#contacts">
+                                    <span>CONTACT ME</span>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -231,18 +316,26 @@
                         <div class="rn-service">
                             <div class="inner">
                                 <div class="icon">
-                                    <i data-feather="code"></i>
+                                    <i data-feather="code">
+
+                                    </i>
                                 </div>
                                 <div class="content">
-                                    <h4 class="title"><a href="#">Drupal Development</a></h4>
+                                    <h4 class="title">
+                                        <a href="#">Drupal Development</a>
+                                    </h4>
                                     <p class="description">Enterprise Drupal applications (versions 8–11) with custom
                                         modules, themes, and REST API integrations for healthcare and complex systems.
                                     </p>
-                                    <a class="read-more-button" href="#resume"><i
-                                            class="feather-arrow-right"></i></a>
+                                    <a class="read-more-button" href="#resume">
+                                        <i class="feather-arrow-right">
+                                        </i>
+                                    </a>
                                 </div>
                             </div>
-                            <a class="over-link" href="#resume"></a>
+                            <a class="over-link" href="#resume">
+
+                            </a>
                         </div>
                     </div>
                     <!-- End SIngle Service -->
@@ -252,17 +345,25 @@
                         <div class="rn-service">
                             <div class="inner">
                                 <div class="icon">
-                                    <i data-feather="layers"></i>
+                                    <i data-feather="layers">
+
+                                    </i>
                                 </div>
                                 <div class="content">
-                                    <h4 class="title"><a href="#">WordPress & Laravel</a></h4>
+                                    <h4 class="title">
+                                        <a href="#">WordPress & Laravel</a>
+                                    </h4>
                                     <p class="description">Full-stack development with WordPress, WooCommerce, and
                                         Laravel for e-commerce, marketplaces, and transactional platforms.</p>
-                                    <a class="read-more-button" href="#resume"><i
-                                            class="feather-arrow-right"></i></a>
+                                    <a class="read-more-button" href="#resume">
+                                        <i class="feather-arrow-right">
+                                        </i>
+                                    </a>
                                 </div>
                             </div>
-                            <a class="over-link" href="#resume"></a>
+                            <a class="over-link" href="#resume">
+
+                            </a>
                         </div>
                     </div>
                     <!-- End SIngle Service -->
@@ -272,17 +373,25 @@
                         <div class="rn-service">
                             <div class="inner">
                                 <div class="icon">
-                                    <i data-feather="cpu"></i>
+                                    <i data-feather="cpu">
+
+                                    </i>
                                 </div>
                                 <div class="content">
-                                    <h4 class="title"><a href="#">API & Marketplace</a></h4>
+                                    <h4 class="title">
+                                        <a href="#">API & Marketplace</a>
+                                    </h4>
                                     <p class="description">API integrations, payment gateways (Pix, Pagar.Me), and
                                         scalable marketplace platforms with performance and security focus.</p>
-                                    <a class="read-more-button" href="#resume"><i
-                                            class="feather-arrow-right"></i></a>
+                                    <a class="read-more-button" href="#resume">
+                                        <i class="feather-arrow-right">
+                                        </i>
+                                    </a>
                                 </div>
                             </div>
-                            <a class="over-link" href="#resume"></a>
+                            <a class="over-link" href="#resume">
+
+                            </a>
                         </div>
                     </div>
                     <!-- End SIngle Service -->
@@ -293,6 +402,7 @@
         <!-- End Service Area  -->
 
         <!-- Start Portfolio Area -->
+        <!-- Start Portfolio Area 
         <div class="rn-portfolio-area rn-section-gap section-separator" id="portfolio">
             <div class="container">
                 <div class="row">
@@ -306,7 +416,6 @@
                 </div>
 
                 <div class="row row--25 mt--10 mt_md--10 mt_sm--10">
-                    <!-- Start Single Portfolio -->
                     <div data-aos="fade-up" data-aos-delay="100" data-aos-once="true"
                         class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
                         <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
@@ -323,19 +432,25 @@
                                             <a href="javascript:void(0)">Drupal</a>
                                         </div>
                                         <div class="meta">
-                                            <span><a href="javascript:void(0)"><i class="feather-heart"></i></a>
+                                            <span>
+                                                <a href="javascript:void(0)">
+                                                    <i class="feather-heart">
+                                                    </i>
+                                                </a>
                                                 10+</span>
                                         </div>
                                     </div>
-                                    <h4 class="title"><a href="javascript:void(0)">Healthcare Enterprise Platform <i
-                                                class="feather-arrow-up-right"></i></a></h4>
+                                    <h4 class="title">
+                                        <a href="javascript:void(0)">Healthcare Enterprise Platform <i
+                                                class="feather-arrow-up-right">
+                                            </i>
+                                        </a>
+                                    </h4>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- End Single Portfolio -->
 
-                    <!-- Start Single Portfolio -->
                     <div data-aos="fade-up" data-aos-delay="300" data-aos-once="true"
                         class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
                         <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
@@ -352,19 +467,25 @@
                                             <a href="javascript:void(0)">Marketplace</a>
                                         </div>
                                         <div class="meta">
-                                            <span><a href="javascript:void(0)"><i class="feather-heart"></i></a>
+                                            <span>
+                                                <a href="javascript:void(0)">
+                                                    <i class="feather-heart">
+                                                    </i>
+                                                </a>
                                                 8+</span>
                                         </div>
                                     </div>
-                                    <h4 class="title"><a href="javascript:void(0)">B2B2C Restaurant Marketplace
-                                            <i class="feather-arrow-up-right"></i></a></h4>
+                                    <h4 class="title">
+                                        <a href="javascript:void(0)">B2B2C Restaurant Marketplace
+                                            <i class="feather-arrow-up-right">
+                                            </i>
+                                        </a>
+                                    </h4>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- End Single Portfolio -->
 
-                    <!-- Start Single Portfolio -->
                     <div data-aos="fade-up" data-aos-delay="500" data-aos-once="true"
                         class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
                         <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
@@ -380,20 +501,28 @@
                                             <a href="javascript:void(0)">E-commerce</a>
                                         </div>
                                         <div class="meta">
-                                            <span><a href="javascript:void(0)"><i class="feather-heart"></i></a>
+                                            <span>
+                                                <a href="javascript:void(0)">
+                                                    <i class="feather-heart">
+                                                    </i>
+                                                </a>
                                                 15+</span>
                                         </div>
                                     </div>
-                                    <h4 class="title"><a href="javascript:void(0)">WooCommerce & Payment Integrations
-                                            <i class="feather-arrow-up-right"></i></a></h4>
+                                    <h4 class="title">
+                                        <a href="javascript:void(0)">WooCommerce & Payment Integrations
+                                            <i class="feather-arrow-up-right">
+                                            </i>
+                                        </a>
+                                    </h4>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- End Single Portfolio -->
                 </div>
             </div>
         </div>
+         End portfolio Area -->
         <!-- End portfolio Area -->
 
         <!-- Start Resume Area -->
@@ -601,8 +730,9 @@
                                                                 data-wow-duration="0.5s" data-wow-delay=".3s"
                                                                 role="progressbar" style="width: 95%"
                                                                 aria-valuenow="85" aria-valuemin="0"
-                                                                aria-valuemax="100"><span
-                                                                    class="percent-label">95%</span></div>
+                                                                aria-valuemax="100">
+                                                                <span class="percent-label">95%</span>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                     <!-- End Single Progress Charts -->
@@ -615,8 +745,9 @@
                                                                 data-wow-duration="0.6s" data-wow-delay=".4s"
                                                                 role="progressbar" style="width: 90%"
                                                                 aria-valuenow="85" aria-valuemin="0"
-                                                                aria-valuemax="100"><span
-                                                                    class="percent-label">90%</span></div>
+                                                                aria-valuemax="100">
+                                                                <span class="percent-label">90%</span>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                     <!-- End Single Progress Charts -->
@@ -629,8 +760,9 @@
                                                                 data-wow-duration="0.7s" data-wow-delay=".5s"
                                                                 role="progressbar" style="width: 85%"
                                                                 aria-valuenow="85" aria-valuemin="0"
-                                                                aria-valuemax="100"><span
-                                                                    class="percent-label">85%</span></div>
+                                                                aria-valuemax="100">
+                                                                <span class="percent-label">85%</span>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                     <!-- End Single Progress Charts -->
@@ -643,8 +775,9 @@
                                                                 data-wow-duration="0.8s" data-wow-delay=".6s"
                                                                 role="progressbar" style="width: 80%"
                                                                 aria-valuenow="85" aria-valuemin="0"
-                                                                aria-valuemax="100"><span
-                                                                    class="percent-label">80%</span></div>
+                                                                aria-valuemax="100">
+                                                                <span class="percent-label">80%</span>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                     <!-- End Single Progress Charts -->
@@ -657,8 +790,9 @@
                                                                 data-wow-duration="0.9s" data-wow-delay=".7s"
                                                                 role="progressbar" style="width: 85%"
                                                                 aria-valuenow="85" aria-valuemin="0"
-                                                                aria-valuemax="100"><span
-                                                                    class="percent-label">85%</span></div>
+                                                                aria-valuemax="100">
+                                                                <span class="percent-label">85%</span>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                     <!-- End Single Progress Charts -->
@@ -682,8 +816,9 @@
                                                                 data-wow-duration="0.5s" data-wow-delay=".3s"
                                                                 role="progressbar" style="width: 80%"
                                                                 aria-valuenow="85" aria-valuemin="0"
-                                                                aria-valuemax="100"><span
-                                                                    class="percent-label">80%</span></div>
+                                                                aria-valuemax="100">
+                                                                <span class="percent-label">80%</span>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                     <!-- End Single Progress Charts -->
@@ -696,8 +831,9 @@
                                                                 data-wow-duration="0.6s" data-wow-delay=".4s"
                                                                 role="progressbar" style="width: 70%"
                                                                 aria-valuenow="85" aria-valuemin="0"
-                                                                aria-valuemax="100"><span
-                                                                    class="percent-label">70%</span></div>
+                                                                aria-valuemax="100">
+                                                                <span class="percent-label">70%</span>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                     <!-- End Single Progress Charts -->
@@ -710,8 +846,9 @@
                                                                 data-wow-duration="0.7s" data-wow-delay=".5s"
                                                                 role="progressbar" style="width: 75%"
                                                                 aria-valuenow="85" aria-valuemin="0"
-                                                                aria-valuemax="100"><span
-                                                                    class="percent-label">75%</span></div>
+                                                                aria-valuemax="100">
+                                                                <span class="percent-label">75%</span>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                     <!-- End Single Progress Charts -->
@@ -724,8 +861,9 @@
                                                                 data-wow-duration="0.8s" data-wow-delay=".6s"
                                                                 role="progressbar" style="width: 90%"
                                                                 aria-valuenow="85" aria-valuemin="0"
-                                                                aria-valuemax="100"><span
-                                                                    class="percent-label">90%</span></div>
+                                                                aria-valuemax="100">
+                                                                <span class="percent-label">90%</span>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                     <!-- End Single Progress Charts -->
@@ -738,8 +876,9 @@
                                                                 data-wow-duration="0.9s" data-wow-delay=".7s"
                                                                 role="progressbar" style="width: 85%"
                                                                 aria-valuenow="85" aria-valuemin="0"
-                                                                aria-valuemax="100"><span
-                                                                    class="percent-label">85%</span></div>
+                                                                aria-valuemax="100">
+                                                                <span class="percent-label">85%</span>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                     <!-- End Single Progress Charts -->
@@ -1002,512 +1141,562 @@
         </div>
         <!-- End Resume Area -->
         <!-- Start Client Area -->
-        <div class="rn-client-area rn-section-gap section-separator" id="clients">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="section-title">
-                            <span class="subtitle">Technical Expertise</span>
-                            <h2 class="title">Core Skills</h2>
-                        </div>
+<div class="rn-client-area rn-section-gap section-separator" id="clients">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title">
+                    <span class="subtitle">Technical Expertise</span>
+                    <h2 class="title">Core Skills</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row--25 mt--50 mt_md--40 mt_sm--40">
+            <div class="col-lg-4">
+                <div class="d-flex flex-wrap align-content-start h-100">
+                    <div class="position-sticky clients-wrapper sticky-top rbt-sticky-top-adjust">
+                        <ul class="nav tab-navigation-button flex-column nav-pills me-3" id="v-pills-tab"
+                            role="tablist">
+
+                            <li class="nav-item">
+                                <a class="nav-link" id="v-pills-home-tab" data-bs-toggle="tab"
+                                    href="#v-pills-Javascript" role="tab" aria-controls="javascript"
+                                    aria-selected="true">Languages</a>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <a class="nav-link active" id="v-pills-profile-tab" data-bs-toggle="tab"
+                                    href="#v-pills-Design" role="tab" aria-controls="design"
+                                    aria-selected="true">Frameworks & CMS</a>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <a class="nav-link" id="v-pills-wordpress-tab" data-bs-toggle="tab"
+                                    href="#v-pills-Wordpress" role="tab" aria-controls="wordpress"
+                                    aria-selected="true">DevOps & Tools</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" id="v-pills-settings-tabs" data-bs-toggle="tab"
+                                    href="#v-pills-settings" role="tab" aria-controls="react"
+                                    aria-selected="true">Databases</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" id="v-pills-laravel-tabs" data-bs-toggle="tab"
+                                    href="#v-pills-laravel" role="tab" aria-controls="laravel"
+                                    aria-selected="true">APIs & Integrations</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" id="v-pills-python-tabs" data-bs-toggle="tab"
+                                    href="#v-pills-python" role="tab" aria-controls="python"
+                                    aria-selected="true">Methodologies</a>
+                            </li>
+
+
+                        </ul>
                     </div>
                 </div>
+            </div>
 
-                <div class="row row--25 mt--50 mt_md--40 mt_sm--40">
-                    <div class="col-lg-4">
-                        <div class="d-flex flex-wrap align-content-start h-100">
-                            <div class="position-sticky clients-wrapper sticky-top rbt-sticky-top-adjust">
-                                <ul class="nav tab-navigation-button flex-column nav-pills me-3" id="v-pills-tab"
-                                    role="tablist">
+            <div class="col-lg-8">
+                <div class="tab-area">
+                    <div class="d-flex align-items-start">
+                        <div class="tab-content" id="v-pills-tabContent">
 
-                                    <li class="nav-item">
-                                        <a class="nav-link" id="v-pills-home-tab" data-bs-toggle="tab"
-                                            href="#v-pills-Javascript" role="tab" aria-controls="javascript"
-                                            aria-selected="true">Languages</a>
-                                    </li>
+                            <div class="tab-pane fade" id="v-pills-Javascript" role="tabpanel"
+                                aria-labelledby="v-pills-home-tab">
+                                <div class="client-card">
 
-
-                                    <li class="nav-item">
-                                        <a class="nav-link active" id="v-pills-profile-tab" data-bs-toggle="tab"
-                                            href="#v-pills-Design" role="tab" aria-controls="design"
-                                            aria-selected="true">Frameworks & CMS</a>
-                                    </li>
-
-
-                                    <li class="nav-item">
-                                        <a class="nav-link" id="v-pills-wordpress-tab" data-bs-toggle="tab"
-                                            href="#v-pills-Wordpress" role="tab" aria-controls="wordpress"
-                                            aria-selected="true">DevOps & Tools</a>
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a class="nav-link" id="v-pills-settings-tabs" data-bs-toggle="tab"
-                                            href="#v-pills-settings" role="tab" aria-controls="react"
-                                            aria-selected="true">Databases</a>
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a class="nav-link" id="v-pills-laravel-tabs" data-bs-toggle="tab"
-                                            href="#v-pills-laravel" role="tab" aria-controls="laravel"
-                                            aria-selected="true">APIs & Integrations</a>
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a class="nav-link" id="v-pills-python-tabs" data-bs-toggle="tab"
-                                            href="#v-pills-python" role="tab" aria-controls="python"
-                                            aria-selected="true">Methodologies</a>
-                                    </li>
-
-
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-8">
-                        <div class="tab-area">
-                            <div class="d-flex align-items-start">
-                                <div class="tab-content" id="v-pills-tabContent">
-
-                                    <div class="tab-pane fade" id="v-pills-Javascript" role="tabpanel"
-                                        aria-labelledby="v-pills-home-tab">
-                                        <div class="client-card">
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img
-                                                                src="assets/images/client/png/brand-01.png"
-                                                                alt="PHP"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">PHP</a></span>
-                                                    </div>
-                                                </div>
+                                    <!-- Start Single Brand  -->
+                                    <div class="main-content">
+                                        <div class="inner text-center">
+                                            <div class="thumbnail">
+                                                <a href="#">
+                                                    <i class="fab fa-php fa-3x"></i>
+                                                </a>
                                             </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img
-                                                                src="assets/images/client/png/brand-02.png"
-                                                                alt="JavaScript"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a
-                                                                href="#">JavaScript</a></span>
-                                                    </div>
-                                                </div>
+                                            <div class="seperator"></div>
+                                            <div class="client-name">
+                                                <span><a href="#">PHP</a></span>
                                             </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img
-                                                                src="assets/images/client/png/brand-03.png"
-                                                                alt="SQL"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">SQL</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img
-                                                                src="assets/images/client/png/brand-04.png"
-                                                                alt="HTML5"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">HTML5</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img
-                                                                src="assets/images/client/png/brand-01.png"
-                                                                alt="CSS3"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">CSS3</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
                                         </div>
                                     </div>
+                                    <!-- End Single Brand  -->
 
-                                    <div class="tab-pane fade show active" id="v-pills-Design" role="tabpanel"
-                                        aria-labelledby="v-pills-profile-tab">
-                                        <div class="client-card">
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img
-                                                                src="assets/images/client/png/brand-01.png"
-                                                                alt="Drupal"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Drupal
-                                                                8-11</a></span>
-                                                    </div>
-                                                </div>
+                                    <!-- Start Single Brand  -->
+                                    <div class="main-content">
+                                        <div class="inner text-center">
+                                            <div class="thumbnail">
+                                                <a href="#">
+                                                    <i class="fab fa-js-square fa-3x"></i>
+                                                </a>
                                             </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img
-                                                                src="assets/images/client/png/brand-02.png"
-                                                                alt="WordPress"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a
-                                                                href="#">WordPress</a></span>
-                                                    </div>
-                                                </div>
+                                            <div class="seperator"></div>
+                                            <div class="client-name">
+                                                <span><a href="#">JavaScript</a></span>
                                             </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img
-                                                                src="assets/images/client/png/brand-03.png"
-                                                                alt="Laravel"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a
-                                                                href="#">Laravel</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img
-                                                                src="assets/images/client/png/brand-04.png"
-                                                                alt="CodeIgniter"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a
-                                                                href="#">CodeIgniter</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img
-                                                                src="assets/images/client/png/brand-01.png"
-                                                                alt="React"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">React</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
                                         </div>
                                     </div>
+                                    <!-- End Single Brand  -->
 
-                                    <div class="tab-pane fade" id="v-pills-Wordpress" role="tabpanel"
-                                        aria-labelledby="v-pills-wordpress-tab">
-                                        <div class="client-card">
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img
-                                                                src="assets/images/client/png/brand-01.png"
-                                                                alt="Git"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Git</a></span>
-                                                    </div>
-                                                </div>
+                                    <!-- Start Single Brand  -->
+                                    <div class="main-content">
+                                        <div class="inner text-center">
+                                            <div class="thumbnail">
+                                                <a href="#">
+                                                    <i class="fas fa-database fa-3x"></i>
+                                                </a>
                                             </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img
-                                                                src="assets/images/client/png/brand-02.png"
-                                                                alt="Docker"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Docker</a></span>
-                                                    </div>
-                                                </div>
+                                            <div class="seperator"></div>
+                                            <div class="client-name">
+                                                <span><a href="#">SQL</a></span>
                                             </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img
-                                                                src="assets/images/client/png/brand-03.png"
-                                                                alt="DDEV"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">DDEV</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img
-                                                                src="assets/images/client/png/brand-04.png"
-                                                                alt="CI/CD"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">CI/CD</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
                                         </div>
                                     </div>
+                                    <!-- End Single Brand  -->
 
-                                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
-                                        aria-labelledby="v-pills-settings-tabs">
-                                        <div class="client-card">
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img
-                                                                src="assets/images/client/png/brand-01.png"
-                                                                alt="MySQL"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">MySQL</a></span>
-                                                    </div>
-                                                </div>
+                                    <!-- Start Single Brand  -->
+                                    <div class="main-content">
+                                        <div class="inner text-center">
+                                            <div class="thumbnail">
+                                                <a href="#">
+                                                    <i class="fab fa-html5 fa-3x"></i>
+                                                </a>
                                             </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img
-                                                                src="assets/images/client/png/brand-02.png"
-                                                                alt="PostgreSQL"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a
-                                                                href="#">PostgreSQL</a></span>
-                                                    </div>
-                                                </div>
+                                            <div class="seperator"></div>
+                                            <div class="client-name">
+                                                <span><a href="#">HTML5</a></span>
                                             </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img
-                                                                src="assets/images/client/png/brand-03.png"
-                                                                alt="Database Design"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Database
-                                                                Design</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
                                         </div>
                                     </div>
+                                    <!-- End Single Brand  -->
 
-                                    <div class="tab-pane fade" id="v-pills-laravel" role="tabpanel"
-                                        aria-labelledby="v-pills-laravel-tabs">
-                                        <div class="client-card">
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img
-                                                                src="assets/images/client/png/brand-01.png"
-                                                                alt="REST API"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">REST
-                                                                API</a></span>
-                                                    </div>
-                                                </div>
+                                    <!-- Start Single Brand  -->
+                                    <div class="main-content">
+                                        <div class="inner text-center">
+                                            <div class="thumbnail">
+                                                <a href="#">
+                                                    <i class="fab fa-css3-alt fa-3x"></i>
+                                                </a>
                                             </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img
-                                                                src="assets/images/client/png/brand-02.png"
-                                                                alt="Payment Gateways"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Payment
-                                                                Systems</a></span>
-                                                    </div>
-                                                </div>
+                                            <div class="seperator"></div>
+                                            <div class="client-name">
+                                                <span><a href="#">CSS3</a></span>
                                             </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img
-                                                                src="assets/images/client/png/brand-03.png"
-                                                                alt="WooCommerce"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a
-                                                                href="#">WooCommerce</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img
-                                                                src="assets/images/client/png/brand-04.png"
-                                                                alt="Third-party APIs"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Third-party
-                                                                APIs</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
                                         </div>
                                     </div>
-
-                                    <div class="tab-pane fade" id="v-pills-python" role="tabpanel"
-                                        aria-labelledby="v-pills-python-tabs">
-                                        <div class="client-card">
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img
-                                                                src="assets/images/client/png/brand-01.png"
-                                                                alt="Agile"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a
-                                                                href="#">Agile</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img
-                                                                src="assets/images/client/png/brand-02.png"
-                                                                alt="Scrum"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a
-                                                                href="#">Scrum</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img
-                                                                src="assets/images/client/png/brand-03.png"
-                                                                alt="Kanban"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a
-                                                                href="#">Kanban</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img
-                                                                src="assets/images/client/png/brand-04.png"
-                                                                alt="GitHub Flow"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">GitHub
-                                                                Flow</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                        </div>
-                                    </div>
+                                    <!-- End Single Brand  -->
 
                                 </div>
                             </div>
+
+                            <div class="tab-pane fade show active" id="v-pills-Design" role="tabpanel"
+                                aria-labelledby="v-pills-profile-tab">
+                                <div class="client-card">
+
+                                    <!-- Start Single Brand  -->
+                                    <div class="main-content">
+                                        <div class="inner text-center">
+                                            <div class="thumbnail">
+                                                <a href="#">
+                                                    <i class="fab fa-drupal fa-3x"></i>
+                                                </a>
+                                            </div>
+                                            <div class="seperator"></div>
+                                            <div class="client-name">
+                                                <span>
+                                                    <a href="#">Drupal 8-11</a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Brand  -->
+
+                                    <!-- Start Single Brand  -->
+                                    <div class="main-content">
+                                        <div class="inner text-center">
+                                            <div class="thumbnail">
+                                                <a href="#">
+                                                    <i class="fab fa-wordpress fa-3x"></i>
+                                                </a>
+                                            </div>
+                                            <div class="seperator"></div>
+                                            <div class="client-name">
+                                                <span>
+                                                    <a href="#">WordPress</a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Brand  -->
+
+                                    <!-- Start Single Brand  -->
+                                    <div class="main-content">
+                                        <div class="inner text-center">
+                                            <div class="thumbnail">
+                                                <a href="#">
+                                                    <i class="fab fa-laravel fa-3x"></i>
+                                                </a>
+                                            </div>
+                                            <div class="seperator"></div>
+                                            <div class="client-name">
+                                                <span>
+                                                    <a href="#">Laravel</a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Brand  -->
+
+                                    <!-- Start Single Brand  -->
+                                    <div class="main-content">
+                                        <div class="inner text-center">
+                                            <div class="thumbnail">
+                                                <a href="#">
+                                                    <i class="fas fa-code fa-3x"></i>
+                                                </a>
+                                            </div>
+                                            <div class="seperator"></div>
+                                            <div class="client-name">
+                                                <span>
+                                                    <a href="#">CodeIgniter</a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Brand  -->
+
+                                    <!-- Start Single Brand  -->
+                                    <div class="main-content">
+                                        <div class="inner text-center">
+                                            <div class="thumbnail">
+                                                <a href="#">
+                                                    <i class="fab fa-react fa-3x"></i>
+                                                </a>
+                                            </div>
+                                            <div class="seperator"></div>
+                                            <div class="client-name">
+                                                <span>
+                                                    <a href="#">React</a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Brand  -->
+
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="v-pills-Wordpress" role="tabpanel"
+                                aria-labelledby="v-pills-wordpress-tab">
+                                <div class="client-card">
+
+                                    <!-- Start Single Brand  -->
+                                    <div class="main-content">
+                                        <div class="inner text-center">
+                                            <div class="thumbnail">
+                                                <a href="#">
+                                                    <i class="fab fa-git-alt fa-3x"></i>
+                                                </a>
+                                            </div>
+                                            <div class="seperator"></div>
+                                            <div class="client-name">
+                                                <span>
+                                                    <a href="#">Git</a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Brand  -->
+
+                                    <!-- Start Single Brand  -->
+                                    <div class="main-content">
+                                        <div class="inner text-center">
+                                            <div class="thumbnail">
+                                                <a href="#">
+                                                    <i class="fab fa-docker fa-3x"></i>
+                                                </a>
+                                            </div>
+                                            <div class="seperator"></div>
+                                            <div class="client-name">
+                                                <span>
+                                                    <a href="#">Docker</a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Brand  -->
+
+                                    <!-- Start Single Brand  -->
+                                    <div class="main-content">
+                                        <div class="inner text-center">
+                                            <div class="thumbnail">
+                                                <a href="#">
+                                                    <i class="fas fa-server fa-3x"></i>
+                                                </a>
+                                            </div>
+                                            <div class="seperator"></div>
+                                            <div class="client-name">
+                                                <span>
+                                                    <a href="#">DDEV</a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Brand  -->
+
+                                    <!-- Start Single Brand  -->
+                                    <div class="main-content">
+                                        <div class="inner text-center">
+                                            <div class="thumbnail">
+                                                <a href="#">
+                                                    <i class="fas fa-sync-alt fa-3x"></i>
+                                                </a>
+                                            </div>
+                                            <div class="seperator"></div>
+                                            <div class="client-name">
+                                                <span>
+                                                    <a href="#">CI/CD</a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Brand  -->
+
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                                aria-labelledby="v-pills-settings-tabs">
+                                <div class="client-card">
+
+                                    <!-- Start Single Brand  -->
+                                    <div class="main-content">
+                                        <div class="inner text-center">
+                                            <div class="thumbnail">
+                                                <a href="#">
+                                                    <i class="fas fa-database fa-3x"></i>
+                                                </a>
+                                            </div>
+                                            <div class="seperator"></div>
+                                            <div class="client-name">
+                                                <span>
+                                                    <a href="#">MySQL</a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Brand  -->
+
+                                    <!-- Start Single Brand  -->
+                                    <div class="main-content">
+                                        <div class="inner text-center">
+                                            <div class="thumbnail">
+                                                <a href="#">
+                                                    <i class="fas fa-database fa-3x"></i>
+                                                </a>
+                                            </div>
+                                            <div class="seperator"></div>
+                                            <div class="client-name">
+                                                <span>
+                                                    <a href="#">PostgreSQL</a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Brand  -->
+
+                                    <!-- Start Single Brand  -->
+                                    <div class="main-content">
+                                        <div class="inner text-center">
+                                            <div class="thumbnail">
+                                                <a href="#">
+                                                    <i class="fas fa-sitemap fa-3x"></i>
+                                                </a>
+                                            </div>
+                                            <div class="seperator"></div>
+                                            <div class="client-name">
+                                                <span>
+                                                    <a href="#">Database Design</a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Brand  -->
+
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="v-pills-laravel" role="tabpanel"
+                                aria-labelledby="v-pills-laravel-tabs">
+                                <div class="client-card">
+
+                                    <!-- Start Single Brand  -->
+                                    <div class="main-content">
+                                        <div class="inner text-center">
+                                            <div class="thumbnail">
+                                                <a href="#">
+                                                    <i class="fas fa-exchange-alt fa-3x"></i>
+                                                </a>
+                                            </div>
+                                            <div class="seperator"></div>
+                                            <div class="client-name">
+                                                <span>
+                                                    <a href="#">REST API</a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Brand  -->
+
+                                    <!-- Start Single Brand  -->
+                                    <div class="main-content">
+                                        <div class="inner text-center">
+                                            <div class="thumbnail">
+                                                <a href="#">
+                                                    <i class="fas fa-credit-card fa-3x"></i>
+                                                </a>
+                                            </div>
+                                            <div class="seperator"></div>
+                                            <div class="client-name">
+                                                <span>
+                                                    <a href="#">Payment Systems</a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Brand  -->
+
+                                    <!-- Start Single Brand  -->
+                                    <div class="main-content">
+                                        <div class="inner text-center">
+                                            <div class="thumbnail">
+                                                <a href="#">
+                                                    <i class="fab fa-wordpress fa-3x"></i>
+                                                </a>
+                                            </div>
+                                            <div class="seperator"></div>
+                                            <div class="client-name">
+                                                <span>
+                                                    <a href="#">WooCommerce</a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Brand  -->
+
+                                    <!-- Start Single Brand  -->
+                                    <div class="main-content">
+                                        <div class="inner text-center">
+                                            <div class="thumbnail">
+                                                <a href="#">
+                                                    <i class="fas fa-plug fa-3x"></i>
+                                                </a>
+                                            </div>
+                                            <div class="seperator"></div>
+                                            <div class="client-name">
+                                                <span>
+                                                    <a href="#">Third-party APIs</a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Brand  -->
+
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="v-pills-python" role="tabpanel"
+                                aria-labelledby="v-pills-python-tabs">
+                                <div class="client-card">
+
+                                    <!-- Start Single Brand  -->
+                                    <div class="main-content">
+                                        <div class="inner text-center">
+                                            <div class="thumbnail">
+                                                <a href="#">
+                                                    <i class="fas fa-bolt fa-3x"></i>
+                                                </a>
+                                            </div>
+                                            <div class="seperator"></div>
+                                            <div class="client-name">
+                                                <span>
+                                                    <a href="#">Agile</a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Brand  -->
+
+                                    <!-- Start Single Brand  -->
+                                    <div class="main-content">
+                                        <div class="inner text-center">
+                                            <div class="thumbnail">
+                                                <a href="#">
+                                                    <i class="fas fa-users fa-3x"></i>
+                                                </a>
+                                            </div>
+                                            <div class="seperator"></div>
+                                            <div class="client-name">
+                                                <span>
+                                                    <a href="#">Scrum</a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Brand  -->
+
+                                    <!-- Start Single Brand  -->
+                                    <div class="main-content">
+                                        <div class="inner text-center">
+                                            <div class="thumbnail">
+                                                <a href="#">
+                                                    <i class="fas fa-columns fa-3x"></i>
+                                                </a>
+                                            </div>
+                                            <div class="seperator"></div>
+                                            <div class="client-name">
+                                                <span>
+                                                    <a href="#">Kanban</a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Brand  -->
+
+                                    <!-- Start Single Brand  -->
+                                    <div class="main-content">
+                                        <div class="inner text-center">
+                                            <div class="thumbnail">
+                                                <a href="#">
+                                                    <i class="fab fa-github fa-3x"></i>
+                                                </a>
+                                            </div>
+                                            <div class="seperator"></div>
+                                            <div class="client-name">
+                                                <span>
+                                                    <a href="#">GitHub Flow</a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Brand  -->
+
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+</div>
         <!-- End client section -->
         <!-- Pricing Area -->
         <div class="rn-pricing-area rn-section-gap section-separator" id="pricing">
@@ -1568,37 +1757,53 @@
                                             <div class="check-wrapper">
                                                 <div class="left-area">
                                                     <div class="check d-flex">
-                                                        <i data-feather="check"></i>
+                                                        <i data-feather="check">
+
+                                                        </i>
                                                         <p>Security Updates</p>
                                                     </div>
                                                     <div class="check d-flex">
-                                                        <i data-feather="check"></i>
+                                                        <i data-feather="check">
+
+                                                        </i>
                                                         <p>Bug Fixes</p>
                                                     </div>
                                                     <div class="check d-flex">
-                                                        <i data-feather="check"></i>
+                                                        <i data-feather="check">
+
+                                                        </i>
                                                         <p>Performance Monitoring</p>
                                                     </div>
                                                     <div class="check d-flex">
-                                                        <i data-feather="check"></i>
+                                                        <i data-feather="check">
+
+                                                        </i>
                                                         <p>Basic Module Updates</p>
                                                     </div>
                                                 </div>
                                                 <div class="right-area">
                                                     <div class="check d-flex">
-                                                        <i data-feather="check"></i>
+                                                        <i data-feather="check">
+
+                                                        </i>
                                                         <p>Monthly Reports</p>
                                                     </div>
                                                     <div class="check d-flex">
-                                                        <i data-feather="check"></i>
+                                                        <i data-feather="check">
+
+                                                        </i>
                                                         <p>Backup Management</p>
                                                     </div>
                                                     <div class="check d-flex">
-                                                        <i data-feather="check"></i>
+                                                        <i data-feather="check">
+
+                                                        </i>
                                                         <p>Security Patches</p>
                                                     </div>
                                                     <div class="check d-flex">
-                                                        <i data-feather="check"></i>
+                                                        <i data-feather="check">
+
+                                                        </i>
                                                         <p>Emergency Support</p>
                                                     </div>
                                                 </div>
@@ -1607,15 +1812,21 @@
                                         <div class="pricing-footer">
                                             <a href="#contacts" class="rn-btn d-block">
                                                 <span>CONTACT FOR QUOTE</span>
-                                                <i data-feather="arrow-right"></i>
+                                                <i data-feather="arrow-right">
+
+                                                </i>
                                             </a>
                                             <div class="time-line">
                                                 <div class="single-cmt d-flex">
-                                                    <i data-feather="clock"></i>
+                                                    <i data-feather="clock">
+
+                                                    </i>
                                                     <span>4 Hour Response</span>
                                                 </div>
                                                 <div class="single-cmt d-flex">
-                                                    <i data-feather="activity"></i>
+                                                    <i data-feather="activity">
+
+                                                    </i>
                                                     <span>Monthly Retainer</span>
                                                 </div>
                                             </div>
@@ -1645,37 +1856,53 @@
                                             <div class="check-wrapper">
                                                 <div class="left-area">
                                                     <div class="check d-flex">
-                                                        <i data-feather="check"></i>
+                                                        <i data-feather="check">
+
+                                                        </i>
                                                         <p>Custom Module Development</p>
                                                     </div>
                                                     <div class="check d-flex">
-                                                        <i data-feather="check"></i>
+                                                        <i data-feather="check">
+
+                                                        </i>
                                                         <p>Theme Customization</p>
                                                     </div>
                                                     <div class="check d-flex">
-                                                        <i data-feather="check"></i>
+                                                        <i data-feather="check">
+
+                                                        </i>
                                                         <p>API Integration</p>
                                                     </div>
                                                     <div class="check d-flex">
-                                                        <i data-feather="check"></i>
+                                                        <i data-feather="check">
+
+                                                        </i>
                                                         <p>E-commerce Setup</p>
                                                     </div>
                                                 </div>
                                                 <div class="right-area">
                                                     <div class="check d-flex">
-                                                        <i data-feather="check"></i>
+                                                        <i data-feather="check">
+
+                                                        </i>
                                                         <p>Performance Optimization</p>
                                                     </div>
                                                     <div class="check d-flex">
-                                                        <i data-feather="check"></i>
+                                                        <i data-feather="check">
+
+                                                        </i>
                                                         <p>Security Hardening</p>
                                                     </div>
                                                     <div class="check d-flex">
-                                                        <i data-feather="check"></i>
+                                                        <i data-feather="check">
+
+                                                        </i>
                                                         <p>Migration Services</p>
                                                     </div>
                                                     <div class="check d-flex">
-                                                        <i data-feather="check"></i>
+                                                        <i data-feather="check">
+
+                                                        </i>
                                                         <p>Technical Documentation</p>
                                                     </div>
                                                 </div>
@@ -1684,15 +1911,21 @@
                                         <div class="pricing-footer">
                                             <a href="#contacts" class="rn-btn d-block">
                                                 <span>CONTACT FOR QUOTE</span>
-                                                <i data-feather="arrow-right"></i>
+                                                <i data-feather="arrow-right">
+
+                                                </i>
                                             </a>
                                             <div class="time-line d-flex">
                                                 <div class="single-cmt d-flex">
-                                                    <i data-feather="clock"></i>
+                                                    <i data-feather="clock">
+
+                                                    </i>
                                                     <span>Project-Based</span>
                                                 </div>
                                                 <div class="single-cmt d-flex">
-                                                    <i data-feather="activity"></i>
+                                                    <i data-feather="activity">
+
+                                                    </i>
                                                     <span>Fixed Price Available</span>
                                                 </div>
                                             </div>
@@ -1722,37 +1955,53 @@
                                             <div class="check-wrapper">
                                                 <div class="left-area">
                                                     <div class="check d-flex">
-                                                        <i data-feather="check"></i>
+                                                        <i data-feather="check">
+
+                                                        </i>
                                                         <p>Enterprise Drupal/WP</p>
                                                     </div>
                                                     <div class="check d-flex">
-                                                        <i data-feather="check"></i>
+                                                        <i data-feather="check">
+
+                                                        </i>
                                                         <p>Marketplace Development</p>
                                                     </div>
                                                     <div class="check d-flex">
-                                                        <i data-feather="check"></i>
+                                                        <i data-feather="check">
+
+                                                        </i>
                                                         <p>Healthcare Systems</p>
                                                     </div>
                                                     <div class="check d-flex">
-                                                        <i data-feather="check"></i>
+                                                        <i data-feather="check">
+
+                                                        </i>
                                                         <p>Payment Gateway Integration</p>
                                                     </div>
                                                 </div>
                                                 <div class="right-area">
                                                     <div class="check d-flex">
-                                                        <i data-feather="check"></i>
+                                                        <i data-feather="check">
+
+                                                        </i>
                                                         <p>Multi-system Integration</p>
                                                     </div>
                                                     <div class="check d-flex">
-                                                        <i data-feather="check"></i>
+                                                        <i data-feather="check">
+
+                                                        </i>
                                                         <p>Scalable Architecture</p>
                                                     </div>
                                                     <div class="check d-flex">
-                                                        <i data-feather="check"></i>
+                                                        <i data-feather="check">
+
+                                                        </i>
                                                         <p>Performance & Security Audit</p>
                                                     </div>
                                                     <div class="check d-flex">
-                                                        <i data-feather="check"></i>
+                                                        <i data-feather="check">
+
+                                                        </i>
                                                         <p>Ongoing Support & Maintenance</p>
                                                     </div>
                                                 </div>
@@ -1761,15 +2010,21 @@
                                         <div class="pricing-footer">
                                             <a href="#contacts" class="rn-btn d-block">
                                                 <span>REQUEST CONSULTATION</span>
-                                                <i data-feather="arrow-right"></i>
+                                                <i data-feather="arrow-right">
+
+                                                </i>
                                             </a>
                                             <div class="time-line d-flex">
                                                 <div class="single-cmt d-flex">
-                                                    <i data-feather="clock"></i>
+                                                    <i data-feather="clock">
+
+                                                    </i>
                                                     <span>Detailed Proposal</span>
                                                 </div>
                                                 <div class="single-cmt d-flex">
-                                                    <i data-feather="activity"></i>
+                                                    <i data-feather="activity">
+
+                                                    </i>
                                                     <span>Team Collaboration</span>
                                                 </div>
                                             </div>
@@ -1785,7 +2040,7 @@
             </div>
         </div>
         <!-- pricing area -->
-        <!-- Start News Area -->
+        {{--
         <div class="rn-blog-area rn-section-gap section-separator" id="blog">
             <div class="container">
                 <div class="row">
@@ -1815,11 +2070,17 @@
                                             <a href="javascript:void(0)">Healthcare</a>
                                         </div>
                                         <div class="meta">
-                                            <span><i class="feather-clock"></i> Enterprise</span>
+                                            <span>
+                                                <i class="feather-clock">
+                                                </i> Enterprise</span>
                                         </div>
                                     </div>
-                                    <h4 class="title"><a href="javascript:void(0)">Hospital Management System
-                                            <i class="feather-arrow-up-right"></i></a></h4>
+                                    <h4 class="title">
+                                        <a href="javascript:void(0)">Hospital Management System
+                                            <i class="feather-arrow-up-right">
+                                            </i>
+                                        </a>
+                                    </h4>
                                 </div>
                             </div>
                         </div>
@@ -1842,11 +2103,17 @@
                                             <a href="javascript:void(0)">Marketplace</a>
                                         </div>
                                         <div class="meta">
-                                            <span><i class="feather-clock"></i> B2B2C</span>
+                                            <span>
+                                                <i class="feather-clock">
+                                                </i> B2B2C</span>
                                         </div>
                                     </div>
-                                    <h4 class="title"><a href="javascript:void(0)">Restaurant Services Platform <i
-                                                class="feather-arrow-up-right"></i></a></h4>
+                                    <h4 class="title">
+                                        <a href="javascript:void(0)">Restaurant Services Platform <i
+                                                class="feather-arrow-up-right">
+                                            </i>
+                                        </a>
+                                    </h4>
                                 </div>
                             </div>
                         </div>
@@ -1869,11 +2136,17 @@
                                             <a href="javascript:void(0)">E-commerce</a>
                                         </div>
                                         <div class="meta">
-                                            <span><i class="feather-clock"></i> Payment Systems</span>
+                                            <span>
+                                                <i class="feather-clock">
+                                                </i> Payment Systems</span>
                                         </div>
                                     </div>
-                                    <h4 class="title"><a href="javascript:void(0)">WooCommerce & Payment Gateway
-                                            <i class="feather-arrow-up-right"></i></a></h4>
+                                    <h4 class="title">
+                                        <a href="javascript:void(0)">WooCommerce & Payment Gateway
+                                            <i class="feather-arrow-up-right">
+                                            </i>
+                                        </a>
+                                    </h4>
                                 </div>
                             </div>
                         </div>
@@ -1884,6 +2157,7 @@
             </div>
         </div>
         <!-- ENd Mews Area -->
+        --}}
         <!-- Start Contact section -->
         <div class="rn-contact-area rn-section-gap section-separator" id="contacts">
             <div class="container">
@@ -1897,11 +2171,8 @@
                 </div>
 
                 <div class="row mt--50 mt_md--40 mt_sm--40 mt-contact-sm">
-                    <div class="col-lg-5">
+                    <div class="col">
                         <div class="contact-about-area">
-                            <div class="thumbnail">
-                                <img src="assets/images/contact/contact1.png" alt="contact-img">
-                            </div>
                             <div class="title-area">
                                 <h4 class="title">Stephen Camilo</h4>
                                 <span>Senior PHP Developer | Drupal | WordPress | Full Stack Engineer</span>
@@ -1910,85 +2181,25 @@
                                 <p>I am available for remote work and international projects. Connect with me via email
                                     or LinkedIn.</p>
                                 <span class="mail">Email: <a
-                                        href="mailto:stephen.camilo@live.com">stephen.camilo@live.com</a></span>
-                                <span class="location">Location: Curitiba, Brazil — Remote / International</span>
+                                        href="mailto:stephen.camilo@live.com">stephen.camilo@live.com</a>
+                                </span>
                             </div>
                             <div class="social-area">
                                 <div class="name">FIND WITH ME</div>
                                 <div class="social-icone">
-                                    <a href="https://github.com/stephencamilo" target="_blank"><i
-                                            data-feather="github"></i></a>
-                                    <a href="https://www.drupal.org/u/stephencamilo" target="_blank"><i
-                                            data-feather="box"></i></a>
-                                    <a href="https://linkedin.com/in/stephencamilo" target="_blank"><i
-                                            data-feather="linkedin"></i></a>
+                                    <a href="https://github.com/stephencamilo" target="_blank">
+                                        <i data-feather="github">
+                                        </i>
+                                    </a>
+                                    <a href="https://www.drupal.org/u/stephencamilo" target="_blank">
+                                        <i data-feather="box">
+                                        </i>
+                                    </a>
+                                    <a href="https://linkedin.com/in/stephencamilo" target="_blank">
+                                        <i data-feather="linkedin">
+                                        </i>
+                                    </a>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div data-aos-delay="600" class="col-lg-7 contact-input">
-                        <div class="contact-form-wrapper">
-                            <div class="introduce">
-
-                                <form class="rnt-contact-form rwt-dynamic-form row" id="contact-form"
-                                    method="POST" action="#">
-
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <label for="contact-name">Your Name</label>
-                                            <input class="form-control form-control-lg" name="contact-name"
-                                                id="contact-name" type="text">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <label for="contact-phone">Phone Number</label>
-                                            <input class="form-control" name="contact-phone" id="contact-phone"
-                                                type="text">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-12">
-                                        <div class="form-group">
-                                            <label for="contact-email">Email</label>
-                                            <input class="form-control form-control-sm" id="contact-email"
-                                                name="contact-email" type="email">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-12">
-                                        <div class="form-group">
-                                            <label for="subject">Project Type</label>
-                                            <select class="form-control form-control-sm" id="subject"
-                                                name="subject">
-                                                <option value="">Select Project Type</option>
-                                                <option value="Drupal Development">Drupal Development</option>
-                                                <option value="WordPress Development">WordPress Development</option>
-                                                <option value="Laravel Project">Laravel Project</option>
-                                                <option value="API Integration">API Integration</option>
-                                                <option value="E-commerce Solution">E-commerce Solution</option>
-                                                <option value="Consultation">Consultation</option>
-                                                <option value="Other">Other</option>
-                                            </select>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-12">
-                                        <div class="form-group">
-                                            <label for="contact-message">Your Message</label>
-                                            <textarea name="contact-message" id="contact-message" cols="30" rows="10"
-                                                placeholder="Please describe your project requirements, timeline, and budget..."></textarea>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-12">
-                                        <button name="submit" type="submit" id="submit" class="rn-btn">
-                                            <span>SEND MESSAGE</span>
-                                            <i data-feather="arrow-right"></i>
-                                        </button>
-                                    </div>
-                                </form>
                             </div>
                         </div>
                     </div>
@@ -2010,7 +2221,10 @@
         <div class="demo-modal-area">
             <div class="wrapper">
                 <div class="close-icon">
-                    <button class="demo-close-btn"><span class="feather-x"></span></button>
+                    <button class="demo-close-btn">
+                        <span class="feather-x">
+                        </span>
+                    </button>
                 </div>
                 <div class="rn-modal-inner">
                     <div class="demo-top text-center">
@@ -2046,12 +2260,15 @@
                                                             alt="Healthcare Drupal">
                                                         <span class="overlay-content">
                                                             <span class="overlay-text">Healthcare Platform <i
-                                                                    class="feather-external-link"></i></span>
+                                                                    class="feather-external-link">
+                                                                </i>
+                                                            </span>
                                                         </span>
                                                     </a>
                                                 </div>
                                                 <div class="inner">
-                                                    <h3 class="title"><a href="#">Hospital Management</a>
+                                                    <h3 class="title">
+                                                        <a href="#">Hospital Management</a>
                                                     </h3>
                                                 </div>
                                             </div>
@@ -2070,12 +2287,15 @@
                                                             alt="Enterprise Drupal">
                                                         <span class="overlay-content">
                                                             <span class="overlay-text">Enterprise Drupal <i
-                                                                    class="feather-external-link"></i></span>
+                                                                    class="feather-external-link">
+                                                                </i>
+                                                            </span>
                                                         </span>
                                                     </a>
                                                 </div>
                                                 <div class="inner">
-                                                    <h3 class="title"><a href="#">Drupal 8-11 Systems</a>
+                                                    <h3 class="title">
+                                                        <a href="#">Drupal 8-11 Systems</a>
                                                     </h3>
                                                 </div>
                                             </div>
@@ -2094,12 +2314,16 @@
                                                             alt="API Integration">
                                                         <span class="overlay-content">
                                                             <span class="overlay-text">API Integration <i
-                                                                    class="feather-external-link"></i></span>
+                                                                    class="feather-external-link">
+                                                                </i>
+                                                            </span>
                                                         </span>
                                                     </a>
                                                 </div>
                                                 <div class="inner">
-                                                    <h3 class="title"><a href="#">REST API Systems</a></h3>
+                                                    <h3 class="title">
+                                                        <a href="#">REST API Systems</a>
+                                                    </h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -2126,12 +2350,16 @@
                                                             alt="Restaurant Marketplace">
                                                         <span class="overlay-content">
                                                             <span class="overlay-text">Marketplace <i
-                                                                    class="feather-external-link"></i></span>
+                                                                    class="feather-external-link">
+                                                                </i>
+                                                            </span>
                                                         </span>
                                                     </a>
                                                 </div>
                                                 <div class="inner">
-                                                    <h3 class="title"><a href="#">B2B2C Platform</a></h3>
+                                                    <h3 class="title">
+                                                        <a href="#">B2B2C Platform</a>
+                                                    </h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -2149,12 +2377,15 @@
                                                             alt="E-commerce">
                                                         <span class="overlay-content">
                                                             <span class="overlay-text">E-commerce <i
-                                                                    class="feather-external-link"></i></span>
+                                                                    class="feather-external-link">
+                                                                </i>
+                                                            </span>
                                                         </span>
                                                     </a>
                                                 </div>
                                                 <div class="inner">
-                                                    <h3 class="title"><a href="#">WooCommerce Solutions</a>
+                                                    <h3 class="title">
+                                                        <a href="#">WooCommerce Solutions</a>
                                                     </h3>
                                                 </div>
                                             </div>
@@ -2173,12 +2404,15 @@
                                                             alt="Payment Systems">
                                                         <span class="overlay-content">
                                                             <span class="overlay-text">Payment Integration <i
-                                                                    class="feather-external-link"></i></span>
+                                                                    class="feather-external-link">
+                                                                </i>
+                                                            </span>
                                                         </span>
                                                     </a>
                                                 </div>
                                                 <div class="inner">
-                                                    <h3 class="title"><a href="#">Gateway Integration</a>
+                                                    <h3 class="title">
+                                                        <a href="#">Gateway Integration</a>
                                                     </h3>
                                                 </div>
                                             </div>
@@ -2207,7 +2441,8 @@
                             </div>
                             <p class="description mt--30">© 2024 Stephen Camilo. Senior PHP Developer | Drupal |
                                 WordPress | Full Stack Engineer. <a
-                                    href="mailto:stephen.camilo@live.com">stephen.camilo@live.com</a></p>
+                                    href="mailto:stephen.camilo@live.com">stephen.camilo@live.com</a>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -2220,7 +2455,10 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true"><i data-feather="x"></i></span>
+                            <span aria-hidden="true">
+                                <i data-feather="x">
+                                </i>
+                            </span>
                         </button>
                     </div>
                     <div class="modal-body">
@@ -2249,7 +2487,9 @@
                                     <div class="button-group mt--20">
                                         <a href="#contacts" class="rn-btn">
                                             <span>REQUEST SIMILAR PROJECT</span>
-                                            <i data-feather="chevron-right"></i>
+                                            <i data-feather="chevron-right">
+
+                                            </i>
                                         </a>
                                     </div>
 
@@ -2270,7 +2510,10 @@
 
                     <div class="modal-header">
                         <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true"><i data-feather="x"></i></span>
+                            <span aria-hidden="true">
+                                <i data-feather="x">
+                                </i>
+                            </span>
                         </button>
                     </div>
 
@@ -2311,7 +2554,9 @@
                             <div class="button-group mt--30">
                                 <a href="#contacts" class="rn-btn">
                                     <span>CONTACT ME</span>
-                                    <i data-feather="chevron-right"></i>
+                                    <i data-feather="chevron-right">
+
+                                    </i>
                                 </a>
                             </div>
                         </div>
@@ -2325,7 +2570,9 @@
         <!-- Back to  top Start -->
         <div class="backto-top">
             <div>
-                <i data-feather="arrow-up"></i>
+                <i data-feather="arrow-up">
+
+                </i>
             </div>
         </div>
         <!-- Back to top end -->

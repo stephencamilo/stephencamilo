@@ -15421,6 +15421,10 @@ div#featured-project-carousel {
   margin: 0 -15px;
   margin-top: -30px;
 }
+
+.client-card a{
+color: var(--color-body-white);
+}
 @media only screen and (max-width: 479px) {
   .client-card {
     padding: 0 20px;
