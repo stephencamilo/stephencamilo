@@ -617,7 +617,7 @@
                                                         <div class="inner">
                                                             <div class="heading">
                                                                 <div class="title">
-                                                                    <h4>Bachelor's Degree in Marketing</h4>
+                                                                    <h4>Associate Degree in Marketing</h4>
                                                                     <span>Anhanguera Educacional</span>
                                                                 </div>
                                                                 <div class="date-of-time">
@@ -1072,7 +1072,7 @@
                                                             <p class="description">Senior PHP developer with over 10
                                                                 years of hands-on experience delivering high-complexity
                                                                 digital platforms using Drupal, WordPress, and Laravel
-                                                                in international environments. Bachelor's degree in
+                                                                in international environments. Associate Degree in
                                                                 Marketing, postgraduate specialization in Data Science,
                                                                 and currently pursuing a degree in Systems Analysis and
                                                                 Development, combining strong engineering execution with
