@@ -1,5 +1,5 @@
 # Stephen Camilo
-**Senior PHP Developer | Drupal | WordPress | Full Stack Engineer**  
+**Drupal | WordPress | Full Stack Developer**  
 📧 Email: stephen.camilo@live.com  
 🔗 LinkedIn: linkedin.com/in/stephencamilo  
 

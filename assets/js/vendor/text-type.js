@@ -1,9 +1,9 @@
 document.addEventListener('alpine:init', () => {
     Alpine.data('textRotator', () => ({
         words: [
-            'Senior PHP Developer.',
+            'PHP Developer.',
             'Drupal Expert.',
-            'Full Stack Engineer.'
+            'Full Stack Developer.'
         ],
         currentWordIndex: 0,
         displayText: '',

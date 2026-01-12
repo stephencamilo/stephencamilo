@@ -1,0 +1,8 @@
+
+{
+  "name": "Stephen Camilo Portfolio",
+  "description": "Professional portfolio of Stephen Camilo, a Senior Software Engineer with expertise in Drupal, WordPress, and Laravel.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
