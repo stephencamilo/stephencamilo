@@ -1,79 +1,114 @@
-# Stephen Camilo
-**Drupal | WordPress | Full Stack Developer**  
-📧 Email: stephen.camilo@live.com  
-🔗 LinkedIn: linkedin.com/in/stephencamilo  
+**Stephen Camilo**  
+WordPress | WooCommerce | Arquiteto de Soluções  
+stephen.camilo@live.com  
+https://linkedin.com/in/stephencamilo  
 
 ---
 
-## Professional Summary
-Senior PHP developer with over 10 years of hands-on experience delivering high-complexity digital platforms using Drupal, WordPress, and Laravel in international environments.  
-Bachelor’s degree in **Marketing**, postgraduate specialization in **Data Science**, and currently pursuing a degree in **Systems Analysis and Development**, combining strong engineering execution with product, data, and business-oriented thinking.  
-Expert in API integrations, marketplaces, transactional platforms, and mission-critical systems, with a strong focus on performance, security, and scalable architecture.
+### Bio
+
+**2007 a 2014: A descoberta da tecnologia como ferramenta de negócio**
+
+Minha trajetória começou em 2007 com suporte em hardware e redes, onde aprendi a base de como a tecnologia conecta pessoas. Em 2009, ingressei em uma agência de marketing e mergulhei em SEO e front-end. Até 2014, expandi para PHP e WordPress, descobrindo que sites são ferramentas estratégicas. Cada projeto consolidou minha visão: tecnologia só faz sentido quando resolve problemas reais de negócio.
+
+**2015 a 2019: A imersão em arquiteturas complexas**
+
+Esse período foi de crescimento técnico acelerado. Atuei em projetos cada vez mais desafiadores, mergulhando em arquiteturas robustas e integrações profundas. Em 2019, fui reconhecido pelo meu potencial analítico e incentivado a cursar pós-graduação em Ciência de Dados. Esse passo ampliou minha capacidade de pensar de forma estruturada e criar automações inteligentes que elevam qualquer solução.
+
+**2019 a 2025: A consolidação em larga escala**
+
+Mergulhei no ecossistema Drupal com empresas como Jobsity e CI&T, contribuindo em projetos enterprise de alto impacto. Migrações complexas e arquiteturas de grande escala se tornaram meu dia a dia. Essa maturidade técnica me permitiu retornar ao WordPress com um olhar mais sofisticado, unindo o melhor dos dois mundos para entregar soluções completas e inovadoras.
+
+**2026 e o presente: A integração entre código e estratégia**
+
+Desenvolvi projetos próprios que uniam excelência técnica e visão de negócio. Foi ali que veio o maior aprendizado: a arquitetura mais brilhante precisa de estratégia de aquisição e retenção para gerar resultados. Hoje, entrego soluções onde código e funil digital nascem juntos, integrados. Minha jornada prova que tecnologia e negócio são uma única força criativa.
 
 ---
 
-## Professional Experience
+## Experiência Profissional
 
-### Senior Drupal Developer — Jobsty
-**Apr 2022 – Oct 2025 | Remote (International)**  
-- Development and maintenance of enterprise Drupal applications (versions 8–11) in a healthcare environment.  
-- Design and implementation of custom modules and themes following security and performance best practices.  
-- REST API integrations enabling interoperability between hospital systems.  
-- Contribution to architectural decisions and continuous improvement initiatives.  
-- Collaboration with distributed teams across the US, Latin America, and Africa.  
-- Technical communication in English (Zoom, Jira, Slack).  
-**Technologies:** PHP, Drupal, MySQL, Git, Docker, DDEV, Agile.
+**Desenvolvedor Drupal Sênior – Jobsity (2022–2026)**  
+Arquiteturas enterprise, governança e integrações complexas para clientes internacionais.
 
-### Full Stack Engineer / Web Developer — Freelance & Own Products
-**Dec 2011 – Present**  
-- Consulting and full stack development of digital platforms and proprietary products.  
-- Back-end development with PHP, Laravel, and Codelgniter; front-end with WordPress, WooCommerce, and React.  
-- Integration with payment gateways (Pix, Pagar.Me) and REST APIs.  
-- Development of hybrid applications (Electron, Cordova, Capacitor).  
-- Product ownership and technical leadership for:  
-  - **taxando.com.br** — B2B2C marketplace for restaurants and freelancers.  
-  - **motoextra.com.br** — Classifieds and marketplace platform.  
-- Application of software architecture, technical UX, data-driven decisions, and scalability principles.
+**Desenvolvedor Drupal Pleno – CI&T (2020–2022)**  
+Soluções para grandes marcas em squads ágeis, com foco em qualidade e entregas consistentes.
 
-### Software Engineer — CI&T
-**Oct 2020 – Apr 2022 | Remote**  
-- Member of the Drupal Enterprise core team.  
-- Development of reusable components and code standardization.  
-- Code reviews and continuous improvement practices.  
-- Maintenance and modernization of legacy systems.  
-**Stack:** PHP, Drupal, GitLab CI/CD, MySQL, Agile.
+**Desenvolvedor Laravel – Plansul (2020)**  
+Sistemas sob medida com boas práticas de back-end e modelagem de dados.
 
-### Full Stack Engineer — Plansul
-**Feb 2020 – Oct 2020 | Curitiba, Brazil**  
-- Development of Laravel-based applications.  
-- Focus on performance optimization, security, and data integration.
+**Desenvolvedor WordPress – CCZ (2019–2020)**  
+Performance, otimização para conversão e visão aprofundada de back-end.
 
-### Full Stack Developer — CCZ
-**Apr 2019 – Jan 2020 | Curitiba, Brazil**  
-- Development of e-commerce and marketplace solutions using WooCommerce and React.  
-- API and payment system integrations.  
-- SEO and performance optimization.
+**Desenvolvedor Drupal – ArcTouch (2019)**  
+Atuação remota em projetos para clientes dos EUA com Drupal 8.
 
----
+**Desenvolvedor Drupal – Appnovation (2018–2019)**  
+Desenvolvimento para clientes do Benelux, sites multilíngues e integração contínua.
 
-## Education
-- **Systems Analysis and Development** — In progress  
-- **Postgraduate Degree in Data Science** — Anhanguera Educacional  
-- **Bachelor’s Degree in Marketing** — Anhanguera Educacional
+**Desenvolvedor Drupal – RCA Digital (2018)**  
+Headless Drupal, manutenção de sistemas legados e suporte técnico.
+
+**Desenvolvedor WordPress – Ledz Web Solutions (2017–2018)**  
+Migração de sistemas legados para WordPress, criação de plugins e automação com crawlers.
+
+**Desenvolvedor PHP – Ambiente Livre Tecnologia (2016–2017)**  
+Desenvolvimento de integrações e customizações para SuiteCRM.
+
+**Desenvolvedor Drupal – FISQUA (2015)**  
+Manutenção de temas responsivos e configurações com Features.
+
+**Desenvolvedor Drupal – FFW (2014–2015)**  
+Desenvolvimento de módulos personalizados, site building e estimativas de projetos.
+
+**Desenvolvedor Drupal – Digital Buzz (2013–2014)**  
+Criação de temas e exportação de configurações para sites multilíngues.
+
+**Administrador de Sistemas – IBM (2011)**  
+Administração de armazenamento SAN e liderança de turno.
+
+**Desenvolvedor Drupal Júnior – Chuva Inc. (2009–2010)**  
+Site building, theming e treinamento de clientes.
+
 
 ---
 
-## Technical Skills
-- **Languages**: PHP, JavaScript, SQL, HTML, CSS  
-- **Frameworks & CMS**: Drupal 8–11, WordPress, Laravel, Codelgniter, React  
-- **DevOps**: Git, Docker, DDEV, CI/CD  
-- **Databases**: MySQL, PostgreSQL  
-- **Data**: Basic ETL, metrics-driven analysis  
-- **Payments**: Pix, Pagar.Me, WooCommerce  
-- **APIs**: REST  
-- **Methodologies**: Agile, Scrum, Kanban, GitHub
+### Projetos
+
+**taxando.com.br – Marketplace com HivePress**  
+Arquitetura base para negócios multi-vendedor: split de pagamentos, Groundhogg, dashboards. Portfólio que ensinou: código precisa de marketing.
+
+**motoextra.com.br – Spinoff de taxando.com.br**  
+Classificados de motos com geolocalização, busca facetada e Twilio SMS. Reforçou: sem tráfego, engenharia não sustenta negócio.
 
 ---
 
-## Career Goal
-Progress into a **Digital Product Architect** role, bridging software engineering, data, and business strategy to design scalable and sustainable platforms.
+### Desenvolvimento
+PHPCS, PHPCBF, PHPStan, Composer, Xdebug, Blackfire, vanilla JavaScript, Git, GitHub, GitLab, Git hooks, $wpdb, CI/CD (GitHub Actions), deploys automatizados.
+
+### SEO & Performance
+SEO on‑page (schema, URLs amigáveis, dados estruturados), Core Web Vitals (LCP, FID, CLS), cache & CDN (Cloudflare), analytics (GA4, Search Console, GTM), acessibilidade (WCAG).
+
+### Design & Prototipagem (Figma)
+Leitura e interpretação de arquivos Figma, colaboração com designers, protótipos funcionais para alinhamento de requisitos, inspeção de componentes e design systems.
+
+### WordPress
+CPT, WP_Query, ACF, Gutenberg, WooCommerce, HivePress, LearnDash, Groundhogg, Elementor, Divi, Yoast SEO, Loco Translate, WP Rocket, W3 Total Cache, LiteSpeed Cache, Wordfence, Sucuri, CF7, Storefront.
+
+### Integrações
+REST API, GraphQL, webhooks, Stripe, Stripe Connect, PagBank (split), Pagar.me, PagSeguro, Salesforce, HubSpot, Twilio.
+
+### Front‑end (complementar)
+jQuery, Alpine, React, Tailwind, Bootstrap, SASS, yarn.
+
+### Infra & DevOps
+Nginx, Apache, Varnish, MySQL, Linux, WSL2, DDEV, Lando.
+
+### Workflow & Métricas
+Scrum, Kanban, code reviews, pair programming, Git Flow, GitHub Flow, Jira, Trello, Notion, Slack, Zoom, Google Meet.
+
+---
+
+### Formação
+
+Pós-graduação em Ciência de Dados – Anhanguera  
+Graduação em Marketing – Anhanguera
