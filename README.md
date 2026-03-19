@@ -45,10 +45,10 @@ Atuação em contrato direto de migração para Drupal 8 para cliente americano.
 Entrega de sites multilíngues para Benelux com integração contínua e qualidade.
 
 **Desenvolvedor Drupal – RCA Digital (2018)**
-Implementação de arquitetura headless em projeto de escopo definido durante transição tecnológica.
+Projeto de implementação de arquitetura headless em projeto de escopo definido durante transição tecnológica.
 
 **Desenvolvedor WordPress – Ledz Web Solutions (2017–2018)**
-Migração de legados para WordPress em trabalho temporário, com plugins customizados e automação.
+Migração de legados para WordPress em projeto, com plugins customizados e automação.
 
 **Desenvolvedor PHP – Ambiente Livre Tecnologia (2016–2017)**
 Customização de integrações para SuiteCRM e automação de processos de negócio.
@@ -110,3 +110,7 @@ Scrum, Kanban, code reviews, pair programming, Git Flow, GitHub Flow, Jira, Trel
 
 Pós-graduação em Ciência de Dados – Anhanguera  
 Graduação em Marketing – Anhanguera
+
+### Informações complementares
+
+Inglês Fluente
