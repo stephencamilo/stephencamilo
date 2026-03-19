@@ -24,51 +24,49 @@ Mergulhei no ecossistema Drupal com empresas como Jobsity e CI&T, contribuindo e
 Desenvolvi projetos próprios que uniam excelência técnica e visão de negócio. Foi ali que veio o maior aprendizado: a arquitetura mais brilhante precisa de estratégia de aquisição e retenção para gerar resultados. Hoje, entrego soluções onde código e funil digital nascem juntos, integrados. Minha jornada prova que tecnologia e negócio são uma única força criativa.
 
 ---
+### Experiência Profissional
 
-## Experiência Profissional
+**Desenvolvedor Drupal Sênior – Jobsity (2022–2026)**
+Arquitetura de soluções enterprise, entregas de integrações complexas e governança para clientes globais.
 
-**Desenvolvedor Drupal Sênior – Jobsity (2022–2026)**  
-Arquiteturas enterprise, governança e integrações complexas para clientes internacionais.
+**Desenvolvedor Drupal Pleno – CI&T (2020–2022)**
+Entrega de soluções escaláveis para grandes marcas em squads ágeis com excelência técnica.
 
-**Desenvolvedor Drupal Pleno – CI&T (2020–2022)**  
-Soluções para grandes marcas em squads ágeis, com foco em qualidade e entregas consistentes.
+**Desenvolvedor Laravel – Plansul (2020)**
+Desenvolvimento de sistemas sob medida em projeto específico, com boas práticas e modelagem robusta.
 
-**Desenvolvedor Laravel – Plansul (2020)**  
-Sistemas sob medida com boas práticas de back-end e modelagem de dados.
+**Desenvolvedor WordPress – CCZ (2019–2020)**
+Otimização de performance e conversão, com visão aprofundada de back-end e estratégia digital.
 
-**Desenvolvedor WordPress – CCZ (2019–2020)**  
-Performance, otimização para conversão e visão aprofundada de back-end.
+**Desenvolvedor Drupal – ArcTouch (2019)**
+Atuação em contrato direto de migração para Drupal 8 para cliente americano.
 
-**Desenvolvedor Drupal – ArcTouch (2019)**  
-Atuação remota em projetos para clientes dos EUA com Drupal 8.
+**Desenvolvedor Drupal – Appnovation (2018–2019)**
+Entrega de sites multilíngues para Benelux com integração contínua e qualidade.
 
-**Desenvolvedor Drupal – Appnovation (2018–2019)**  
-Desenvolvimento para clientes do Benelux, sites multilíngues e integração contínua.
+**Desenvolvedor Drupal – RCA Digital (2018)**
+Implementação de arquitetura headless em projeto de escopo definido durante transição tecnológica.
 
-**Desenvolvedor Drupal – RCA Digital (2018)**  
-Headless Drupal, manutenção de sistemas legados e suporte técnico.
+**Desenvolvedor WordPress – Ledz Web Solutions (2017–2018)**
+Migração de legados para WordPress em trabalho temporário, com plugins customizados e automação.
 
-**Desenvolvedor WordPress – Ledz Web Solutions (2017–2018)**  
-Migração de sistemas legados para WordPress, criação de plugins e automação com crawlers.
+**Desenvolvedor PHP – Ambiente Livre Tecnologia (2016–2017)**
+Customização de integrações para SuiteCRM e automação de processos de negócio.
 
-**Desenvolvedor PHP – Ambiente Livre Tecnologia (2016–2017)**  
-Desenvolvimento de integrações e customizações para SuiteCRM.
+**Desenvolvedor Drupal – FISQUA (2015)**
+Evolução de temas responsivos com Features em entrega de curto prazo e foco definido.
 
-**Desenvolvedor Drupal – FISQUA (2015)**  
-Manutenção de temas responsivos e configurações com Features.
+**Desenvolvedor Drupal – FFW (2014–2015)**
+Construção de módulos sob medida e colaboração em estimativas técnicas de projetos.
 
-**Desenvolvedor Drupal – FFW (2014–2015)**  
-Desenvolvimento de módulos personalizados, site building e estimativas de projetos.
+**Desenvolvedor Drupal – Digital Buzz (2013–2014)**
+Desenvolvimento de temas e exportação de configurações para sites multilíngues.
 
-**Desenvolvedor Drupal – Digital Buzz (2013–2014)**  
-Criação de temas e exportação de configurações para sites multilíngues.
+**Administrador de Sistemas – IBM (2011)**
+Liderança de turno e administração de storage SAN. Retorno ao desenvolvimento web unindo visão crítica de infraestrutura.
 
-**Administrador de Sistemas – IBM (2011)**  
-Administração de armazenamento SAN e liderança de turno.
-
-**Desenvolvedor Drupal Júnior – Chuva Inc. (2009–2010)**  
-Site building, theming e treinamento de clientes.
-
+**Desenvolvedor Drupal Júnior – Chuva Inc. (2009–2010)**
+Construção de sites e treinamento de clientes em projeto de curta duração para setor cultural.
 
 ---
 
@@ -78,7 +76,7 @@ Site building, theming e treinamento de clientes.
 Arquitetura base para negócios multi-vendedor: split de pagamentos, Groundhogg, dashboards. Portfólio que ensinou: código precisa de marketing.
 
 **motoextra.com.br – Spinoff de taxando.com.br**  
-Classificados de motos com geolocalização, busca facetada e Twilio SMS. Reforçou: sem tráfego, engenharia não sustenta negócio.
+Classificados de motos com geolocalização e busca facetada. Reforçou: sem tráfego, engenharia não sustenta negócio.
 
 ---
 
