@@ -110,7 +110,7 @@ Scrum, Kanban, code reviews, pair programming, Git Flow, GitHub Flow, Jira, Trel
 ### Education
 
 Postgraduate Degree in Data Science – Anhanguera  
-Bachelor's Degree in Marketing – Anhanguera
+Associate Degree in Marketing – Anhanguera
 
 ### Additional Information
 
