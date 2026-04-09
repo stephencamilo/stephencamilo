@@ -1,5 +1,5 @@
 **Stephen Camilo**  
-WordPress | WooCommerce | Solutions Architect  
+Drupal | WooCommerce | Solutions Architect  
 stephen.camilo@live.com  
 https://linkedin.com/in/stephencamilo  
 
@@ -89,6 +89,9 @@ On-page SEO (schema, friendly URLs, structured data), Core Web Vitals (LCP, FID,
 
 ### Design & Prototyping (Figma)
 Reading and interpreting Figma files, collaborating with designers, functional prototypes for requirement alignment, inspecting components and design systems.
+
+### Drupal
+Entity API, Plugin API, Cache API, Render API, Query API, Paragraphs (plugin), Pathauto (plugin), Metatag (plugin), Webform (plugin), Admin Toolbar (plugin), Block (plugin), FieldFormatter (plugin), FieldWidget (plugin), hook_form_alter(), hook_theme(), hook_preprocess_HOOK(), hook_cron()
 
 ### WordPress
 CPT, WP_Query, ACF, Gutenberg, WooCommerce, HivePress, LearnDash, Groundhogg, Elementor, Divi, Yoast SEO, Loco Translate, WP Rocket, W3 Total Cache, LiteSpeed Cache, Wordfence, Sucuri, CF7, Storefront.
